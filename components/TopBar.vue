@@ -1773,4 +1773,16 @@ export default {
 		}
 	}
 }
+
+@media only screen and (min-width: 450px) {
+	.top-bar {
+		height: 5rem;
+		.logo {
+			height: 2.4rem;
+			svg {
+				height: 2.4rem;
+			}
+		}
+	}
+}
 </style>

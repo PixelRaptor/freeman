@@ -268,4 +268,59 @@ export default Vue.extend({
 		}
 	}
 }
+
+@media only screen and (min-width: 450px) {
+	.project-header {
+		display: flex;
+		grid-template-columns: 1fr 1fr;
+		flex-wrap: wrap;
+		.top {
+			flex-grow: 2;
+			flex-shrink: 0;
+			width: 100%;
+		}
+		.left {
+			flex-shrink: 0;
+			flex-grow: 0;
+			width: 50%;
+			padding-right: 1rem;
+			box-sizing: border-box;
+		}
+		.right {
+			flex-shrink: 0;
+			flex-grow: 0;
+			width: 50%;
+			padding-top: 0.3rem;
+		}
+	}
+}
+
+@media only screen and (min-width: 930px) {
+	.project-header {
+		padding: 0px 2.62rem;
+		padding-top: 2.62rem;
+		padding-bottom: 2.62rem;
+		position: relative;
+		&.small {
+			padding: 0px 2.62rem;
+			padding-top: 2.62rem;
+			padding-bottom: 2.62rem;
+			position: relative;
+			.top {
+				h1 {
+					font-size: 3.44rem;
+					line-height: 1.2;
+					padding: 1rem 0 0.5rem;
+				}
+			}
+			.left,
+			.right {
+				display: grid;
+			}
+		}
+		.left {
+			padding-right: 10rem;
+		}
+	}
+}
 </style>

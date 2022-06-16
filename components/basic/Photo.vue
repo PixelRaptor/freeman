@@ -25,4 +25,11 @@ export default {
 	background-position: center;
 	background-size: cover;
 }
+
+@media only screen and (min-width: 450px) {
+	.photo {
+		height: 18rem;
+		margin-bottom: 0rem;
+	}
+}
 </style>

@@ -95,7 +95,7 @@ export default Vue.extend({
 		}
 		p {
 			font-weight: 500;
-			font-size: 0.9rem;
+			font-size: 1rem;
 			line-height: 1.3;
 		}
 	}
@@ -122,10 +122,44 @@ export default Vue.extend({
 			background-size: cover;
 			flex-grow: 0;
 			flex-shrink: 0;
+			cursor: pointer;
 			&.selected {
-				box-shadow: inset 0px 0px 0px 3px var(--white-color);
+				box-shadow: inset 0px 0px 0px 1px var(--black-color);
 				opacity: 0.6;
 			}
+		}
+	}
+}
+
+@media only screen and (min-width: 450px) {
+	.project-thumb {
+		margin-bottom: 0rem;
+		.graphic {
+			height: 16rem;
+		}
+		.thumbnails {
+			width: 45vw;
+		}
+	}
+}
+
+@media only screen and (min-width: 930px) {
+	.project-thumb {
+		.graphic {
+			height: 16rem;
+		}
+		.thumbnails {
+			width: 27.4rem;
+		}
+	}
+}
+@media only screen and (min-width: 1232px) {
+	.project-thumb {
+		.graphic {
+			height: 22rem;
+		}
+		.thumbnails {
+			width: 36rem;
 		}
 	}
 }

@@ -12,9 +12,6 @@ export default Vue.extend({
 	data() {
 		return {};
 	},
-	created() {
-		console.log(this.$route);
-	},
 	components: { ProjectThumb },
 });
 </script>
@@ -22,5 +19,13 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .works {
 	padding-top: 0.5rem;
+}
+
+@media only screen and (min-width: 450px) {
+	.works {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
 }
 </style>

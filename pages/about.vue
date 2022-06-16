@@ -86,7 +86,7 @@ export default Vue.extend({
 		.links {
 			display: flex;
 			justify-content: space-between;
-			max-width: 90%;
+			max-width: 100%;
 			margin: 20px 0px 40px;
 			a {
 				font-weight: 500;
@@ -101,6 +101,47 @@ export default Vue.extend({
 		text-align: left;
 		.photo-grid {
 			padding-top: 1.38rem;
+		}
+	}
+}
+
+@media only screen and (min-width: 450px) {
+	.about {
+		.bio {
+			.links {
+				max-width: 20rem;
+			}
+		}
+		.gallery {
+			.photo-grid {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 1rem;
+				.photo {
+					height: 18rem;
+					margin-bottom: 0rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 930px) {
+}
+@media only screen and (min-width: 1232px) {
+	.about {
+		.bio {
+			.links {
+			}
+		}
+		.gallery {
+			.photo-grid {
+				grid-template-columns: 1fr 1fr 1fr;
+				.photo {
+					height: 20rem;
+					margin-bottom: 0rem;
+				}
+			}
 		}
 	}
 }

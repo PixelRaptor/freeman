@@ -23,4 +23,12 @@ export default Vue.extend({
 .works {
 	padding-top: 0.5rem;
 }
+
+@media only screen and (min-width: 450px) {
+	.works {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+}
 </style>

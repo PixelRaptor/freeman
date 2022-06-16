@@ -39,9 +39,9 @@ export default Vue.extend({
 .layout {
 	padding: var(--side-padding);
 	.router-tabs {
-		display: grid;
-		grid-template-columns: 4rem 7rem 5rem;
-		grid-gap: 2rem;
+		display: flex;
+		justify-content: space-between;
+		max-width: 20rem;
 		list-style: none;
 		margin: 4rem 0px 1rem;
 
@@ -55,6 +55,32 @@ export default Vue.extend({
 				}
 			}
 		}
+	}
+}
+
+@media only screen and (min-width: 450px) {
+	.layout {
+		.router-tabs {
+			max-width: 22rem;
+			margin: 3rem 0px 1rem;
+			.link {
+				a {
+					&.nuxt-link-active {
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 932px) {
+	.layout {
+		margin: auto;
+		max-width: 900px;
+	}
+}
+@media only screen and (min-width: 1232px) {
+	.layout {
+		max-width: 1200px;
 	}
 }
 </style>

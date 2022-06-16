@@ -1,35 +1,37 @@
 <template>
 	<div class="project-popup" id="project">
-		<ProjectHeader :class="{ small: status }" />
-		<div class="content">
-			<div class="section" v-for="i in 3">
-				<div class="text">
-					<h2>Overview</h2>
-					{{ status }}
-					<p>
-						For the challenge or problem statement, state the key
-						issue that the challenge/problem is impacting the user.
-					</p>
-					<ul>
-						<li><p>How did the problem arise?</p></li>
-						<li>
-							<p>
-								Tell about your user and what they’re
-								experiencing or challenged? (Such as Pain
-								Points)
-							</p>
+		<div class="popup">
+			<ProjectHeader :class="{ small: status }" />
+			<div class="content">
+				<div class="section" v-for="i in 3">
+					<div class="text">
+						<h2>Overview</h2>
+						<p>
+							For the challenge or problem statement, state the
+							key issue that the challenge/problem is impacting
+							the user.
+						</p>
+						<ul>
+							<li><p>How did the problem arise?</p></li>
+							<li>
+								<p>
+									Tell about your user and what they’re
+									experiencing or challenged? (Such as Pain
+									Points)
+								</p>
+							</li>
+							<li><p>Why is this problem significant?</p></li>
+						</ul>
+					</div>
+					<ul class="photo-carousel">
+						<li v-for="img in images">
+							<img :src="img.link" alt="" srcset="" />
 						</li>
-						<li><p>Why is this problem significant?</p></li>
 					</ul>
 				</div>
-				<ul class="photo-carousel">
-					<li v-for="img in images">
-						<img :src="img.link" alt="" srcset="" />
-					</li>
-				</ul>
+				<div class="wireframes"></div>
+				<div class="mockups"></div>
 			</div>
-			<div class="wireframes"></div>
-			<div class="mockups"></div>
 		</div>
 	</div>
 </template>
@@ -118,7 +120,7 @@ export default Vue.extend({
 		padding-top: 0.5rem;
 		padding-bottom: 4rem;
 		.section {
-			padding-top: 1rem;
+			padding-top: 2rem;
 			text-align: left;
 			.text {
 				/*padding: var(--side-padding);*/
@@ -145,5 +147,39 @@ export default Vue.extend({
 			}
 		}
 	}
+}
+
+@media only screen and (min-width: 450px) {
+}
+
+@media only screen and (min-width: 930px) {
+	.project-popup {
+		background: rgb(17 17 17 / 40%);
+		.popup {
+			width: 75rem;
+			position: relative;
+			transform: translateX(-50%);
+			left: 50%;
+			top: 5rem;
+			background: var(--white-color);
+
+			.content {
+				.section {
+					.text {
+						padding: 0px 2.62rem;
+					}
+					.photo-carousel {
+						width: calc(100vw - ((100vw - 75rem) / 2) - 4rem);
+						padding: 1rem 2.62rem 0px;
+						img {
+							height: 30rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1232px) {
 }
 </style>
