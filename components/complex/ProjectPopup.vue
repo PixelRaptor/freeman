@@ -78,29 +78,29 @@ export default Vue.extend({
 	mounted() {
 		console.log("yn");
 		this.image = this.images[0];
-		window.document
-			.getElementById("project")
-			.addEventListener("scroll", this.updatePageHeight);
+		// window.document
+		// 	.getElementById("project")
+		// 	.addEventListener("scroll", this.updatePageHeight);
 	},
 	methods: {
 		setImage(image: any) {
 			console.log(image);
 			this.image = image;
 		},
-		updatePageHeight() {
-			try {
-				if (window.document.getElementById("project").scrollTop > 200) {
-					this.status = true;
-					console.log("yebo");
-				} else if (
-					window.document.getElementById("project").scrollTop < 100
-				) {
-					this.status = false;
-				} else {
-					this.status = this.status;
-				}
-			} catch (e) {}
-		},
+		// updatePageHeight() {
+		// 	try {
+		// 		if (window.document.getElementById("project").scrollTop > 200) {
+		// 			this.status = true;
+		// 			console.log("yebo");
+		// 		} else if (
+		// 			window.document.getElementById("project").scrollTop < 100
+		// 		) {
+		// 			this.status = false;
+		// 		} else {
+		// 			this.status = this.status;
+		// 		}
+		// 	} catch (e) {}
+		// },
 	},
 	components: { LinkButton, ProjectHeader },
 });
