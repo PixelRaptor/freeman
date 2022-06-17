@@ -30,5 +30,7 @@ export default Vue.extend({
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1rem;
 	}
+	.extras {
+	}
 }
 </style>
