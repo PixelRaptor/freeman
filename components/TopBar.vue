@@ -1751,6 +1751,7 @@
 					stroke-miterlimit="10"
 				/></svg
 		></nuxt-link>
+		<a class="contact" href="mailto:me@ux.dev">me@ux.dev</a>
 	</div>
 </template>
 
@@ -1764,6 +1765,7 @@ export default {
 .top-bar {
 	height: 4rem;
 	display: grid;
+	grid-template-columns: 3rem 1fr;
 	.logo {
 		margin: auto;
 		width: 3rem;
@@ -1772,9 +1774,14 @@ export default {
 			height: 2.67rem;
 		}
 	}
+	.contact {
+		margin: auto 0px;
+		text-align: right;
+		font-weight: 600;
+	}
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 	.top-bar {
 		height: 5rem;
 		.logo {

@@ -12,7 +12,7 @@
 				developer you are looking for
 			</p>
 			<div class="get-intouch">
-				<a href="mailto:">Get in touch</a><span>me@ux.dev</span>
+				<a href="mailto:">Get in touch</a>
 			</div>
 		</div>
 

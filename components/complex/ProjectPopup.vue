@@ -1,9 +1,10 @@
 <template>
 	<div class="project-popup" id="project">
+		<div class="overlay" @click="close()"></div>
 		<div class="popup">
 			<ProjectHeader :class="{ small: status }" />
 			<div class="content">
-				<div class="section" v-for="i in 3">
+				<div class="section" v-for="i in 3" :key="i">
 					<div class="text">
 						<h2>Overview</h2>
 						<p>
@@ -87,6 +88,10 @@ export default Vue.extend({
 			console.log(image);
 			this.image = image;
 		},
+
+		close() {
+			this.$store.commit("closeProjctPopup");
+		},
 		// updatePageHeight() {
 		// 	try {
 		// 		if (window.document.getElementById("project").scrollTop > 200) {
@@ -120,7 +125,7 @@ export default Vue.extend({
 		padding-top: 0.5rem;
 		padding-bottom: 4rem;
 		.section {
-			padding-top: 2rem;
+			padding-top: 1rem;
 			text-align: left;
 			.text {
 				/*padding: var(--side-padding);*/
@@ -149,14 +154,21 @@ export default Vue.extend({
 	}
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 }
 
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 932px) {
 	.project-popup {
-		background: rgb(17 17 17 / 40%);
+		.overlay {
+			background: rgb(17 17 17 / 40%);
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+		}
 		.popup {
-			width: 75rem;
+			width: 56.25rem;
 			position: relative;
 			transform: translateX(-50%);
 			left: 50%;
@@ -169,6 +181,24 @@ export default Vue.extend({
 						padding: 0px 2.62rem;
 					}
 					.photo-carousel {
+						width: calc(100vw - ((100vw - 56.25rem) / 2) - 4rem);
+						padding: 1rem 2.62rem 0px;
+						img {
+							height: 23rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1232px) {
+	.project-popup {
+		.popup {
+			width: 75rem;
+			.content {
+				.section {
+					.photo-carousel {
 						width: calc(100vw - ((100vw - 75rem) / 2) - 4rem);
 						padding: 1rem 2.62rem 0px;
 						img {
@@ -179,7 +209,5 @@ export default Vue.extend({
 			}
 		}
 	}
-}
-@media only screen and (min-width: 1232px) {
 }
 </style>

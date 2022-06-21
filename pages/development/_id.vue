@@ -1,6 +1,6 @@
 <template>
 	<ul class="works">
-		<ProjectThumb v-for="i in 6" />
+		<ProjectThumb v-for="i in 6" :key="i" />
 	</ul>
 </template>
 
@@ -21,7 +21,7 @@ export default Vue.extend({
 	padding-top: 0.5rem;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 	.works {
 		display: grid;
 		grid-template-columns: 1fr 1fr;

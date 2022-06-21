@@ -120,4 +120,36 @@ export default Vue.extend({
 		}
 	}
 }
+
+@media only screen and (min-width: 672px) {
+	.page-footer {
+		.footer-socials {
+			.social-link {
+				a {
+					text-decoration: none;
+					.label {
+						display: block;
+						font-weight: 600;
+						font-size: 1.1rem;
+						line-height: 1.3;
+						color: var(--black-color);
+					}
+					.icon {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1230px) {
+	.page-footer {
+		margin: auto;
+		.footer-socials {
+			width: 30rem;
+			margin: 1.7rem auto 1.9rem;
+		}
+	}
+}
 </style>

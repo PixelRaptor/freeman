@@ -58,7 +58,7 @@ export default Vue.extend({
 	}
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 	.layout {
 		.router-tabs {
 			max-width: 22rem;

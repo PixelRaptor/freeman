@@ -26,7 +26,7 @@ export default {
 	background-size: cover;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 	.photo {
 		height: 18rem;
 		margin-bottom: 0rem;

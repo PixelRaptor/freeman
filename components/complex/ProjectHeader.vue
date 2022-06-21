@@ -211,6 +211,8 @@ export default Vue.extend({
 			display: flex;
 			.gap {
 				width: 0.6rem;
+				flex-shrink: 0;
+				flex-grow: 0;
 			}
 		}
 	}
@@ -269,7 +271,7 @@ export default Vue.extend({
 	}
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 	.project-header {
 		display: flex;
 		grid-template-columns: 1fr 1fr;

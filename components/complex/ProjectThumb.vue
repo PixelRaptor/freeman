@@ -131,7 +131,7 @@ export default Vue.extend({
 	}
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 	.project-thumb {
 		margin-bottom: 0rem;
 		.graphic {

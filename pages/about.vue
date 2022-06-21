@@ -87,12 +87,13 @@ export default Vue.extend({
 			display: flex;
 			justify-content: space-between;
 			max-width: 100%;
-			margin: 20px 0px 40px;
+			margin: 1.25rem 0px 2.5rem;
+
 			a {
 				font-weight: 500;
-				font-size: 16px;
-				line-height: 30px;
-				color: #3ddfc2;
+				font-size: 1rem;
+				line-height: 1.88rem;
+				color: var(--scheme-color);
 			}
 		}
 	}
@@ -105,7 +106,7 @@ export default Vue.extend({
 	}
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 672px) {
 	.about {
 		.bio {
 			.links {
