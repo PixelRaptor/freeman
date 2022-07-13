@@ -1751,7 +1751,7 @@
 					stroke-miterlimit="10"
 				/></svg
 		></nuxt-link>
-		<a class="contact" href="mailto:me@ux.dev">me@ux.dev</a>
+		<a class="contact" href="mailto:me@uxdev.co.za">me@uxdev.co.za</a>
 	</div>
 </template>
 

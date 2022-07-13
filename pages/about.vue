@@ -25,7 +25,7 @@
 			<div class="line"></div>
 		</div>
 		<div class="gallery">
-			<h2>The Boooyz</h2>
+			<h2>Memories</h2>
 			<ul class="photo-grid">
 				<Photo v-for="image in gallery" :image="image" />
 			</ul>
@@ -128,10 +128,18 @@ export default Vue.extend({
 }
 
 @media only screen and (min-width: 930px) {
+	.about {
+		.bio {
+			max-width: 50rem;
+			.links {
+			}
+		}
+	}
 }
 @media only screen and (min-width: 1232px) {
 	.about {
 		.bio {
+			max-width: 50rem;
 			.links {
 			}
 		}

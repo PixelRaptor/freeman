@@ -59,8 +59,8 @@ export default {
 	},
 
 	server: {
-		// host: "0", // default: localhost
-		// port: 9000, // default: 3000
+		host: "0", // default: localhost
+		port: 9000, // default: 3000
 	},
 	// Content module configuration: https://go.nuxtjs.dev/config-content
 	content: {},
