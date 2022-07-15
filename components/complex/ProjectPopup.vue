@@ -142,7 +142,7 @@ export default Vue.extend({
 				padding: var(--side-padding);
 				padding-top: 1rem;
 				img {
-					height: 17rem;
+					height: 16rem;
 					margin-right: 0.5rem;
 					border-radius: 2px;
 				}
