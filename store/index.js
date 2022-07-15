@@ -9,11 +9,9 @@ export const mutations = {
 		state.articles = [];
 	},
 	closeProjctPopup(state) {
-		console.log("tese");
 		state.showProject = false;
 	},
 	showProjectPopup(state, project) {
-		console.log("tese");
 		state.showProject = true;
 		state.selectedProject = project;
 	},

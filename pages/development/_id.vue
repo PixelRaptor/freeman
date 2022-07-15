@@ -1,6 +1,6 @@
 <template>
 	<ul class="works">
-		<ProjectThumb v-for="i in 6" :key="i" />
+		<ProjectThumb v-for="i in 1" :key="i" />
 	</ul>
 </template>
 

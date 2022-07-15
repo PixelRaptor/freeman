@@ -17,9 +17,9 @@
 				<span class="label">Roles</span>
 				<span class="value">Designer, Developer</span>
 			</li>
-			<li class="detail">
-				<span class="label">Project duration</span>
-				<span class="value">January 2021 - August 2021 </span>
+			<li class="detail mobile-hidden">
+				<span class="label">Collaborators</span>
+				<span class="value">Bakani Pilime </span>
 			</li>
 		</ul>
 		<div class="background">
@@ -172,14 +172,21 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 672px) {
+	.mobile-hidden {
+		display: none !important;
+	}
+}
 .project-header {
 	position: relative;
 	padding: var(--side-padding);
 	padding-top: 2.5rem;
 	padding-bottom: 1.5rem;
 	text-align: left;
-	position: sticky;
+	position: fixed;
 	top: 0px;
+	width: 100%;
+	box-sizing: border-box;
 	z-index: 1;
 	&.small {
 		padding-top: 1.5rem;
@@ -218,7 +225,7 @@ export default Vue.extend({
 	}
 	.right {
 		display: grid;
-		grid-template-rows: 1fr 1fr;
+		grid-template-rows: auto;
 		grid-gap: 1rem;
 		padding-top: 1.2rem;
 		.detail {

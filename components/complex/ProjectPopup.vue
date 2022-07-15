@@ -77,35 +77,32 @@ export default Vue.extend({
 	},
 
 	mounted() {
-		console.log("yn");
 		this.image = this.images[0];
-		// window.document
-		// 	.getElementById("project")
-		// 	.addEventListener("scroll", this.updatePageHeight);
+		window.document
+			.getElementById("project")
+			.addEventListener("scroll", this.updatePageHeight);
 	},
 	methods: {
 		setImage(image: any) {
-			console.log(image);
 			this.image = image;
 		},
 
 		close() {
 			this.$store.commit("closeProjctPopup");
 		},
-		// updatePageHeight() {
-		// 	try {
-		// 		if (window.document.getElementById("project").scrollTop > 200) {
-		// 			this.status = true;
-		// 			console.log("yebo");
-		// 		} else if (
-		// 			window.document.getElementById("project").scrollTop < 100
-		// 		) {
-		// 			this.status = false;
-		// 		} else {
-		// 			this.status = this.status;
-		// 		}
-		// 	} catch (e) {}
-		// },
+		updatePageHeight() {
+			try {
+				if (window.document.getElementById("project").scrollTop > 200) {
+					this.status = true;
+				} else if (
+					window.document.getElementById("project").scrollTop < 50
+				) {
+					this.status = false;
+				} else {
+					this.status = this.status;
+				}
+			} catch (e) {}
+		},
 	},
 	components: { LinkButton, ProjectHeader },
 });
@@ -122,7 +119,7 @@ export default Vue.extend({
 	overflow-y: scroll;
 	overflow-x: hidden;
 	.content {
-		padding-top: 0.5rem;
+		padding-top: 23.5rem;
 		padding-bottom: 4rem;
 		.section {
 			padding-top: 1rem;
@@ -155,6 +152,11 @@ export default Vue.extend({
 }
 
 @media only screen and (min-width: 672px) {
+	.project-popup {
+		.content {
+			padding-top: 0.5rem;
+		}
+	}
 }
 
 @media only screen and (min-width: 932px) {

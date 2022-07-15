@@ -2,7 +2,7 @@
 	<li class="project-thumb">
 		<div class="labels">
 			<h2>Doitol</h2>
-			<p>Designer, Developer</p>
+			<p>Designer, Developerd</p>
 		</div>
 		<div
 			@click="showPopup()"
@@ -42,7 +42,7 @@ export default Vue.extend({
 			image: {},
 			images: [
 				{
-					link: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
+					link: "https://ik.imagekit.io/uxdev/baobab-logo-tile_FLSUP3QQB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657737094844",
 					id: 1,
 				},
 				{

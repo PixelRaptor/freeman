@@ -1,6 +1,6 @@
 <template>
 	<ul class="works">
-		<ProjectThumb v-for="i in 6" :key="i" />
+		<ProjectThumb v-for="i in 1" :key="i" />
 	</ul>
 </template>
 
@@ -11,9 +11,6 @@ export default Vue.extend({
 	name: "DesignCategories",
 	data() {
 		return {};
-	},
-	created() {
-		console.log(this.$route);
 	},
 	components: { ProjectThumb },
 });
