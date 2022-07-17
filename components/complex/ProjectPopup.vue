@@ -269,9 +269,12 @@ export default Vue.extend({
 		height: 100vh;
 		width: 100vw;
 		position: fixed;
+		background: rgba(17, 17, 17, 0.4);
 	}
 	.close-image-popup-button {
 		position: fixed;
+		transform: translateX(-50%);
+		left: 50%;
 		top: 3rem;
 		height: 4rem;
 		width: 4rem;
@@ -279,6 +282,7 @@ export default Vue.extend({
 		border: none;
 		cursor: pointer;
 		background: var(--white-color);
+		z-index: 9;
 		&:hover {
 			background: none;
 			svg {
