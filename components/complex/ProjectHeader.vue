@@ -17,7 +17,7 @@
 				<span class="label">Roles</span>
 				<span class="value">Designer, Developer</span>
 			</li>
-			<li class="detail mobile-hidden">
+			<li class="detail">
 				<span class="label">Collaborators</span>
 				<span class="value">Bakani Pilime </span>
 			</li>
@@ -172,18 +172,12 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-@media only screen and (max-width: 672px) {
-	.mobile-hidden {
-		display: none !important;
-	}
-}
 .project-header {
 	position: relative;
 	padding: var(--side-padding);
 	padding-top: 2.5rem;
 	padding-bottom: 1.5rem;
 	text-align: left;
-	position: fixed;
 	top: 0px;
 	width: 100%;
 	box-sizing: border-box;
