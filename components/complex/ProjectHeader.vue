@@ -2,28 +2,48 @@
 	<div class="project-header">
 		<div class="top">
 			<BackButton @click="close()" />
-			<h1>Doitol</h1>
+			<h1>{{ project.title }}</h1>
 		</div>
 		<div class="left">
-			<p>Angular, Express, Nodejs, Figma, illustrator, VScode,Heroku</p>
+			<p>
+				<span v-for="item in project.tools" :key="item.id">{{
+					item + ", "
+				}}</span>
+			</p>
 			<div class="buttons">
-				<LinkButton link="www" label="View Protoype" />
+				<LinkButton
+					:link="project.resource.link"
+					:label="'View on ' + project.resource.type"
+				/>
 				<div class="gap"></div>
-				<LinkButton link="www" label="Launch Demo" />
+				<LinkButton :link="project.demo" label="Launch Demo" />
 			</div>
 		</div>
 		<ul class="right">
 			<li class="detail">
 				<span class="label">Roles</span>
-				<span class="value">Designer, Developer</span>
+				<span class="value"
+					><span v-for="item in project.roles" :key="item.id">{{
+						item + ", "
+					}}</span></span
+				>
 			</li>
 			<li class="detail">
 				<span class="label">Collaborators</span>
-				<span class="value">Bakani Pilime </span>
+				<span class="value"
+					><span
+						v-for="item in project.collaborators"
+						:key="item.id"
+						>{{ item.name + ", " }}</span
+					></span
+				>
 			</li>
 		</ul>
 		<div class="background">
-			<div class="overlay"></div>
+			<div
+				class="overlay"
+				v-bind:style="{ background: createBackgroundString }"
+			></div>
 			<div class="graphic">
 				<svg
 					viewBox="0 0 980 301"
@@ -128,34 +148,9 @@ export default Vue.extend({
 	data() {
 		return {
 			image: {},
-			images: [
-				{
-					link: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-					id: 1,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-					id: 2,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-					id: 3,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-					id: 4,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-					id: 5,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-					id: 6,
-				},
-			],
 		};
 	},
+	props: ["project"],
 	beforeMount() {
 		this.image = this.images[0];
 	},
@@ -165,6 +160,12 @@ export default Vue.extend({
 		},
 		close() {
 			this.$store.commit("closeProjctPopup");
+		},
+	},
+
+	computed: {
+		createBackgroundString() {
+			return `linear-gradient(${180}deg, rgba(255, 219, 193, 0) 0%, #ffdbc1 52.08%)`;
 		},
 	},
 	components: { LinkButton, BackButton },
@@ -246,12 +247,6 @@ export default Vue.extend({
 		height: 100%;
 		width: 100%;
 		.overlay {
-			background: linear-gradient(
-				180deg,
-				rgba(255, 219, 193, 0) 0%,
-				#ffdbc1 52.08%
-			);
-
 			position: absolute;
 			height: 100%;
 			width: 100%;

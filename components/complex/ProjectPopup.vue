@@ -2,7 +2,18 @@
 	<div class="project-popup" id="project">
 		<div class="overlay" @click="close()"></div>
 		<div class="popup" :class="{ fade: popupImage }">
-			<ProjectHeader :class="{ small: status }" />
+			<ProjectHeader
+				:class="{ small: status }"
+				:project="{
+					title: project.title,
+					theme: project.theme,
+					tools: project.tools,
+					resource: project.resource,
+					demo: project.demo,
+					roles: project.roles,
+					collaborators: project.collaborators,
+				}"
+			/>
 			<div class="content">
 				<div class="section" v-for="i in project.content" :key="i.id">
 					<div class="text">
@@ -15,7 +26,7 @@
 								:src="img.url"
 								:alt="img.title"
 								srcset=""
-								@click="showImage(index, images)"
+								@click="showImage(index, i.images)"
 							/>
 						</li>
 					</ul>
@@ -62,35 +73,10 @@ export default Vue.extend({
 			popupImage: false,
 			selectedImageIndex: 0,
 			selectedImageGroup: [],
-			images: [
-				{
-					link: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-					id: 1,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-					id: 2,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-					id: 3,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-					id: 4,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-					id: 5,
-				},
-				{
-					link: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-					id: 6,
-				},
-			],
 			project: {
-				section: "header",
+				id: "12",
 				title: "Doitol",
+				theme: "#ffdbc1",
 				tools: [
 					"Angular",
 					"Express",
@@ -100,9 +86,9 @@ export default Vue.extend({
 					"VScode",
 					"Heroku",
 				],
-				resource: { type: "github", link: "www.resource.com" },
+				resource: { type: "Github", link: "www.resource.com" },
 				demo: "www.demo.com",
-				resources: ["Designer", "Developer"],
+				roles: ["Designer", "Developer"],
 				collaborators: [
 					{ name: "Bakani Pilime", id: "bmpz@github.com" },
 				],
@@ -148,22 +134,22 @@ export default Vue.extend({
 						],
 						images: [
 							{
-								id: "logo cover image",
+								id: 1,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
 							},
 							{
-								id: "logo cover image",
+								id: 2,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
 							},
 							{
-								id: "logo cover image",
+								id: 3,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
 							},
 							{
-								id: "logo cover image",
+								id: 4,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
 							},
@@ -208,9 +194,6 @@ export default Vue.extend({
 	mounted() {
 		console.log("yn");
 		this.image = this.images[0];
-		// window.document
-		// 	.getElementById("project")
-		// 	.addEventListener("scroll", this.updatePageHeight);
 	},
 	methods: {
 		setImage(image: any) {
@@ -232,20 +215,6 @@ export default Vue.extend({
 			this.selectedImageGroup = [];
 			this.popupImage = !this.popupImage;
 		},
-		// updatePageHeight() {
-		// 	try {
-		// 		if (window.document.getElementById("project").scrollTop > 200) {
-		// 			this.status = true;
-		// 			console.log("yebo");
-		// 		} else if (
-		// 			window.document.getElementById("project").scrollTop < 100
-		// 		) {
-		// 			this.status = false;
-		// 		} else {
-		// 			this.status = this.status;
-		// 		}
-		// 	} catch (e) {}
-		// },
 	},
 	components: { LinkButton, ProjectHeader, ImagePopup },
 });
@@ -313,7 +282,7 @@ export default Vue.extend({
 				padding: var(--side-padding);
 				h2 {
 					font-weight: 700;
-					font-size: 1.56rem;
+					font-size: 1.2rem;
 					margin-bottom: 0.3rem;
 					text-transform: capitalize;
 				}

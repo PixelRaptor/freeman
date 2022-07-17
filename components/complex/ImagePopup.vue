@@ -2,7 +2,7 @@
 	<div
 		class="image-popup"
 		v-bind:style="{
-			backgroundImage: 'url(' + selectedImageGroup[selected].link + ')',
+			backgroundImage: 'url(' + selectedImageGroup[selected].url + ')',
 		}"
 	>
 		<button class="nav-button go-left-button" @click="goLeft()">
