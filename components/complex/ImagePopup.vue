@@ -137,7 +137,17 @@ export default Vue.extend({
 
 @media only screen and (min-width: 932px) {
 	.image-popup {
+		height: 70vh;
+		position: fixed;
 		width: 56.25rem;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		top: 50%;
+		background: var(--white-color);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		border-radius: var(--border-radius);
 	}
 }
 

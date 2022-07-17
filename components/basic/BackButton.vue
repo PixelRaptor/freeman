@@ -47,6 +47,7 @@ export default Vue.extend({
 	text-decoration: none;
 	display: inline-flex;
 	text-align: left;
+	cursor: pointer;
 	&:active {
 		background: var(--black-color);
 		color: var(--white-color);

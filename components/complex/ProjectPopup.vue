@@ -34,6 +34,26 @@
 				<div class="wireframes"></div>
 				<div class="mockups"></div>
 			</div>
+			<div class="bottom-navigation">
+				<button class="view-next-project">
+					<span class="label">Cinema3</span>
+					<span class="icon"
+						><svg
+							width="20"
+							height="20"
+							viewBox="0 0 20 20"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M10.6 3.4L16.2 9H0V11H16.2L10.6 16.6L12 18L20 10L12 2L10.6 3.4Z"
+								fill="black"
+							/>
+						</svg>
+					</span>
+				</button>
+			</div>
+			<div class="clearfix"></div>
 		</div>
 		<div v-if="popupImage">
 			<div class="overlay image-overlay" @click="closeImagePopup()"></div>
@@ -103,22 +123,22 @@ export default Vue.extend({
 						],
 						images: [
 							{
-								id: "logo cover image",
+								id: 1,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
 							},
 							{
-								id: "logo cover image",
+								id: 2,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
 							},
 							{
-								id: "logo cover image",
+								id: 3,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
 							},
 							{
-								id: "logo cover image",
+								id: 4,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
 							},
@@ -165,22 +185,22 @@ export default Vue.extend({
 						],
 						images: [
 							{
-								id: "logo cover image",
+								id: 1,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
 							},
 							{
-								id: "logo cover image",
+								id: 2,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
 							},
 							{
-								id: "logo cover image",
+								id: 3,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
 							},
 							{
-								id: "logo cover image",
+								id: 4,
 								title: "Cover",
 								url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
 							},
@@ -190,16 +210,7 @@ export default Vue.extend({
 			},
 		};
 	},
-
-	mounted() {
-		console.log("yn");
-		this.image = this.images[0];
-	},
 	methods: {
-		setImage(image: any) {
-			console.log(image);
-			this.image = image;
-		},
 		showImage(index: any, images: any) {
 			console.log(index, images, "thisx");
 			this.selectedImageIndex = index;
@@ -230,8 +241,44 @@ export default Vue.extend({
 	width: 100%;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	.popup.fade {
-		opacity: 0.2;
+	.popup {
+		padding-bottom: 2rem;
+		&.fade {
+			opacity: 0.2;
+		}
+		.content {
+			padding-top: 0.5rem;
+			padding-bottom: 2rem;
+			.section {
+				padding-top: 1rem;
+				text-align: left;
+				.text {
+					/*padding: var(--side-padding);*/
+					padding: var(--side-padding);
+					h2 {
+						font-weight: 700;
+						font-size: 1.2rem;
+						margin-bottom: 0.3rem;
+						text-transform: capitalize;
+					}
+					ul {
+						/*list-style: inside;*/
+					}
+				}
+				.photo-carousel {
+					display: flex;
+					overflow-x: scroll;
+					padding: var(--side-padding);
+					padding-top: 1rem;
+					img {
+						cursor: pointer;
+						height: 16rem;
+						margin-right: 0.5rem;
+						border-radius: 2px;
+					}
+				}
+			}
+		}
 	}
 	.image-overlay {
 		top: 0px;
@@ -271,42 +318,35 @@ export default Vue.extend({
 			fill: var(--black-color);
 		}
 	}
-	.content {
-		padding-top: 0.5rem;
-		padding-bottom: 4rem;
-		.section {
-			padding-top: 1rem;
-			text-align: left;
-			.text {
-				/*padding: var(--side-padding);*/
-				padding: var(--side-padding);
-				h2 {
-					font-weight: 700;
-					font-size: 1.2rem;
-					margin-bottom: 0.3rem;
-					text-transform: capitalize;
-				}
-				ul {
-					/*list-style: inside;*/
-				}
-			}
-			.photo-carousel {
-				display: flex;
-				overflow-x: scroll;
-				padding: var(--side-padding);
-				padding-top: 1rem;
-				img {
-					cursor: pointer;
-					height: 16rem;
-					margin-right: 0.5rem;
-					border-radius: 2px;
-				}
+	.view-next-project {
+		background: transparent;
+		border: none;
+		display: grid;
+		grid-template-columns: 1fr 2rem;
+		grid-gap: 1rem;
+		float: right;
+		margin-right: 1rem;
+		.label {
+			font-weight: 700;
+			font-size: 2rem;
+		}
+		.icon {
+			display: grid;
+			svg {
+				width: 2rem;
+				height: 2rem;
+				margin: auto;
 			}
 		}
+	}
+	.clearfix {
+		clear: both;
 	}
 }
 
 @media only screen and (min-width: 672px) {
+	.view-next-project {
+	}
 }
 
 @media only screen and (min-width: 932px) {
@@ -342,18 +382,9 @@ export default Vue.extend({
 				}
 			}
 		}
-		.image-popup {
-			height: 70vh;
-			position: fixed;
-			width: 56.25rem;
-			transform: translate(-50%, -50%);
-			left: 50%;
-			top: 50%;
-			background: var(--white-color);
-			background-size: contain;
-			background-position: center;
-			background-repeat: no-repeat;
-			border-radius: var(--border-radius);
+
+		.view-next-project {
+			margin-right: 2.62rem;
 		}
 	}
 }
@@ -365,7 +396,7 @@ export default Vue.extend({
 				.section {
 					.photo-carousel {
 						width: calc(100vw - ((100vw - 75rem) / 2) - 4rem);
-						padding: 1rem 2.62rem 0px;
+
 						img {
 							height: 24rem;
 						}

@@ -42,7 +42,7 @@
 		<div class="background">
 			<div
 				class="overlay"
-				v-bind:style="{ background: createBackgroundString }"
+				v-bind:style="{ background: createBackgroundString() }"
 			></div>
 			<div class="graphic">
 				<svg
@@ -145,29 +145,32 @@ import LinkButton from "../basic/LinkButton.vue";
 import BackButton from "../basic/BackButton.vue";
 export default Vue.extend({
 	name: "ProjectHeader",
+
 	data() {
 		return {
 			image: {},
 		};
 	},
-	props: ["project"],
-	beforeMount() {
-		this.image = this.images[0];
+	props: {
+		project: {
+			type: Object,
+			default: () => {
+				theme: "#fd5956";
+			},
+		},
 	},
 	methods: {
-		setImage(image: any) {
-			this.image = image;
-		},
 		close() {
 			this.$store.commit("closeProjctPopup");
 		},
-	},
-
-	computed: {
 		createBackgroundString() {
-			return `linear-gradient(${180}deg, rgba(255, 219, 193, 0) 0%, #ffdbc1 52.08%)`;
+			return `linear-gradient(${180}deg, rgba(255, 219, 193, 0) 0%, ${
+				this.project.theme
+			} 52.08%)`;
 		},
 	},
+
+	computed: {},
 	components: { LinkButton, BackButton },
 });
 </script>
