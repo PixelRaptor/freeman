@@ -131,4 +131,19 @@ export default Vue.extend({
 		}
 	}
 }
+
+@media only screen and (min-width: 672px) {
+}
+
+@media only screen and (min-width: 932px) {
+	.image-popup {
+		width: 56.25rem;
+	}
+}
+
+@media only screen and (min-width: 1232px) {
+	.image-popup {
+		width: 75rem;
+	}
+}
 </style>

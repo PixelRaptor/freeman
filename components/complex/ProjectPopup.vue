@@ -336,7 +336,7 @@ export default Vue.extend({
 						width: calc(100vw - ((100vw - 56.25rem) / 2) - 4rem);
 						padding: 1rem 2.62rem 0px;
 						img {
-							height: 23rem;
+							height: 19rem;
 						}
 					}
 				}
@@ -367,7 +367,7 @@ export default Vue.extend({
 						width: calc(100vw - ((100vw - 75rem) / 2) - 4rem);
 						padding: 1rem 2.62rem 0px;
 						img {
-							height: 30rem;
+							height: 24rem;
 						}
 					}
 				}

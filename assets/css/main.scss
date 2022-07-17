@@ -4,6 +4,7 @@
 	--side-padding: 0 1em;
 	--scheme-color: #fd5956;
 	--black-color: #000000;
+	--pencil-color: #333333;
 	--grey-color: #626262;
 	--light-grey-color: #f8f8f8;
 	--white-color: #ffffff;
@@ -32,6 +33,7 @@ html {
 		font-weight: 500;
 		line-height: 1.7;
 		text-align: left;
+		color: var(--pencil-color);
 	}
 	a {
 		font-weight: 700;
