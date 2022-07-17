@@ -24,12 +24,27 @@
 				<div class="mockups"></div>
 			</div>
 		</div>
-		<div
-			v-if="popupImage"
-			class="overlay image-overlay"
-			@click="closeImagePopup()"
-		></div>
-		<ImagePopup v-if="popupImage" :selectedImage="selectedImage" />
+		<div v-if="popupImage">
+			<div class="overlay image-overlay" @click="closeImagePopup()"></div>
+
+			<button class="close-image-popup-button" @click="closeImagePopup()">
+				<svg
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M24 2.4L21.6 0L12 9.6L2.4 0L0 2.4L9.6 12L0 21.6L2.4 24L12 14.4L21.6 24L24 21.6L14.4 12L24 2.4Z"
+					/>
+				</svg>
+			</button>
+			<ImagePopup
+				:selectedImageGroup="selectedImageGroup"
+				:selectedImageIndex="selectedImageIndex"
+			/>
+		</div>
 	</div>
 </template>
 
@@ -45,7 +60,8 @@ export default Vue.extend({
 			image: {},
 			status: false,
 			popupImage: false,
-			selectedImage: [],
+			selectedImageIndex: 0,
+			selectedImageGroup: [],
 			images: [
 				{
 					link: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
@@ -202,8 +218,9 @@ export default Vue.extend({
 			this.image = image;
 		},
 		showImage(index: any, images: any) {
-			console.log(index, images);
-			this.selectedImage = [index, images];
+			console.log(index, images, "thisx");
+			this.selectedImageIndex = index;
+			this.selectedImageGroup = images;
 			this.popupImage = !this.popupImage;
 		},
 
@@ -211,7 +228,8 @@ export default Vue.extend({
 			this.$store.commit("closeProjctPopup");
 		},
 		closeImagePopup() {
-			this.selectedImage = [];
+			this.selectedImageIndex = 0;
+			this.selectedImageGroup = [];
 			this.popupImage = !this.popupImage;
 		},
 		// updatePageHeight() {
@@ -252,6 +270,34 @@ export default Vue.extend({
 		width: 100vw;
 		position: fixed;
 	}
+	.close-image-popup-button {
+		position: fixed;
+		top: 3rem;
+		height: 4rem;
+		width: 4rem;
+		border-radius: 50%;
+		border: none;
+		cursor: pointer;
+		background: var(--white-color);
+		&:hover {
+			background: none;
+			svg {
+				fill: var(--white-color);
+			}
+		}
+		&:active {
+			svg {
+				fill: var(--black-color);
+			}
+		}
+		svg {
+			height: 1.6rem;
+			width: 1.6rem;
+			margin: auto;
+			display: grid;
+			fill: var(--black-color);
+		}
+	}
 	.content {
 		padding-top: 0.5rem;
 		padding-bottom: 4rem;
@@ -277,6 +323,7 @@ export default Vue.extend({
 				padding: var(--side-padding);
 				padding-top: 1rem;
 				img {
+					cursor: pointer;
 					height: 16rem;
 					margin-right: 0.5rem;
 					border-radius: 2px;

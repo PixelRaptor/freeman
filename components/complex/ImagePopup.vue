@@ -2,10 +2,10 @@
 	<div
 		class="image-popup"
 		v-bind:style="{
-			backgroundImage: 'url(' + selectedImage[1][selected].link + ')',
+			backgroundImage: 'url(' + selectedImageGroup[selected].link + ')',
 		}"
 	>
-		<button class="go-left-button" @click="goLeft()">
+		<button class="nav-button go-left-button" @click="goLeft()">
 			<svg
 				width="320"
 				height="512"
@@ -18,7 +18,7 @@
 				/>
 			</svg>
 		</button>
-		<button class="go-right-button" @click="goRight()">
+		<button class="nav-button go-right-button" @click="goRight()">
 			<svg
 				width="320"
 				height="512"
@@ -41,17 +41,16 @@ export default Vue.extend({
 	name: "ImagePopup",
 	data() {
 		return {
-			displayImage: this.selectedImage[1][this.selectedImage[0]].link,
-			selected: this.selectedImage[0],
+			displayImage: this.selectedImageGroup[this.selectedImageIndex].link,
+			selected: this.selectedImageIndex,
 		};
 	},
-
-	props: ["selectedImage"],
+	props: ["selectedImageIndex", "selectedImageGroup"],
 
 	methods: {
 		goRight() {
 			let index = this.selected;
-			if (index < this.selectedImage[1].length - 1) {
+			if (index < this.selectedImageGroup.length - 1) {
 				this.selected = index + 1;
 			} else {
 				this.selected = 0;
@@ -62,7 +61,7 @@ export default Vue.extend({
 			if (index > 0) {
 				this.selected = index - 1;
 			} else {
-				this.selected = this.selectedImage[1].length - 1;
+				this.selected = this.selectedImageGroup.length - 1;
 			}
 		},
 	},
@@ -79,8 +78,7 @@ export default Vue.extend({
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-
-	button {
+	.nav-button {
 		width: 4rem;
 		position: fixed;
 		height: 100%;

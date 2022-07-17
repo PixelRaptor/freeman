@@ -100,6 +100,7 @@ export default Vue.extend({
 		}
 	}
 	.graphic {
+		cursor: pointer;
 		background: var(--grey-color);
 		height: 15rem;
 		margin-top: 0.8rem;
