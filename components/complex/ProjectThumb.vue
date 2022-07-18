@@ -1,26 +1,34 @@
 <template>
 	<li class="project-thumb">
 		<div class="labels">
-			<h2>Doitol</h2>
-			<p>Designer, Developerd</p>
+			<h2>{{ project.title }}</h2>
+			<p>
+				<span v-for="item in project.roles" :key="item.id">{{
+					item + ", "
+				}}</span>
+			</p>
 		</div>
 		<div
 			@click="showPopup()"
 			class="graphic"
 			v-bind:style="{
-				backgroundImage: 'url(' + image.link + ')',
+				backgroundImage:
+					'url(' +
+					project.content.solution.images[selected].url +
+					')',
 			}"
 		></div>
 		<div class="thumbnails">
 			<div
-				@click="setImage(img)"
-				v-for="img in images"
+				@click="setImage(index)"
+				v-for="(img, index) in project.content.solution.images"
 				v-bind:style="{
-					backgroundImage: 'url(' + img.link + ')',
+					backgroundImage: 'url(' + img.url + ')',
 				}"
 				v-bind:class="{
 					thumbnail: true,
-					selected: img.id == image.id,
+					selected:
+						img.id == project.content.solution.images[selected].id,
 				}"
 				:key="img.id"
 			></div>
@@ -30,6 +38,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import { mapMutations } from "vuex";
 export default Vue.extend({
 	name: "ProjectThumb",
 	props: {
@@ -39,6 +48,7 @@ export default Vue.extend({
 	},
 	data() {
 		return {
+			selected: 0,
 			image: {},
 			images: [
 				{
@@ -72,12 +82,13 @@ export default Vue.extend({
 		this.image = this.images[0];
 	},
 	methods: {
-		setImage(image: any) {
-			this.image = image;
+		setImage(index: number) {
+			this.selected = index;
 		},
 		showPopup() {
-			this.$store.commit("showProjectPopup", this.project);
+			this.showProjectPopup(this.project);
 		},
+		...mapMutations(["showProjectPopup"]),
 	},
 });
 </script>

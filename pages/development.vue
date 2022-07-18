@@ -14,24 +14,40 @@ export default Vue.extend({
 		return {
 			categories: [
 				{
-					label: "Interaction design",
-					count: 5,
-					id: "interaction",
+					label: "React",
+					id: "react",
 				},
 				{
-					label: "Visual design",
-					count: 8,
-					id: "visual",
+					label: "Vue",
+					id: "vue",
 				},
 				{
-					label: "Motion design",
-					count: 1,
-					id: "motion",
+					label: "Angular",
+					id: "angular",
 				},
 				{
-					label: "Typeface design",
-					count: 2,
-					id: "typeface",
+					label: "Nuxt.js",
+					id: "nuxtjs",
+				},
+				{
+					label: "Next.js",
+					id: "nextjs",
+				},
+				{
+					label: "Node.js",
+					id: "nodejs",
+				},
+				{
+					label: "Javascript",
+					id: "javascript",
+				},
+				{
+					label: "Typescript",
+					id: "typescript",
+				},
+				{
+					label: "HTML",
+					id: "html",
 				},
 			],
 			routeprefix: "/development/",

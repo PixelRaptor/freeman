@@ -1,7 +1,7 @@
 <template>
 	<nuxt-link :to="routeprefix + value.id" class="pill">
-		{{ value.label }} ({{ value.count }})</nuxt-link
-	>
+		{{ value.label }}
+	</nuxt-link>
 </template>
 
 <script>

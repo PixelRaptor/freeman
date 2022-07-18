@@ -1,18 +1,26 @@
 <template>
 	<ul class="works">
-		<ProjectThumb v-for="i in 1" :key="i" />
+		<ProjectThumb
+			v-for="project in projects"
+			:key="project.id"
+			:project="project"
+		/>
 	</ul>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
 import ProjectThumb from "~/components/complex/ProjectThumb.vue";
+import { mapGetters } from "vuex";
+import global from "~/mixins/global";
 export default Vue.extend({
-	name: "IndexPage",
+	name: "development",
 	data() {
 		return {};
 	},
+	mixins: [global],
 	components: { ProjectThumb },
+	computed: {},
 });
 </script>
 

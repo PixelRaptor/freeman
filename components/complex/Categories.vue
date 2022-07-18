@@ -24,6 +24,9 @@ import TopBar from "~/components/TopBar.vue";
 
 export default Vue.extend({
 	name: "Categories",
+	data() {
+		return {};
+	},
 	props: {
 		categories: {},
 		routeprefix: {

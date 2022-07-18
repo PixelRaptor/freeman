@@ -14,23 +14,19 @@ export default Vue.extend({
 		return {
 			categories: [
 				{
-					label: "Interaction design",
-					count: 5,
+					label: "Interaction",
 					id: "interaction",
 				},
 				{
-					label: "Visual design",
-					count: 8,
+					label: "Visual",
 					id: "visual",
 				},
 				{
-					label: "Motion design",
-					count: 1,
+					label: "Motion",
 					id: "motion",
 				},
 				{
-					label: "Typeface design",
-					count: 2,
+					label: "Typeface & Icon",
 					id: "typeface",
 				},
 			],
