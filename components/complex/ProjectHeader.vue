@@ -14,9 +14,10 @@
 				<LinkButton
 					:link="project.resource.link"
 					:label="'View on ' + project.resource.type"
+					:disabled="project.resource.disabled"
 				/>
 				<div class="gap"></div>
-				<LinkButton :link="project.demo" label="Launch Demo" />
+				<LinkButton :link="project.demo" label="Launch Project" />
 			</div>
 		</div>
 		<ul class="right">
@@ -29,7 +30,7 @@
 				>
 			</li>
 			<li class="detail">
-				<span class="label">Collaborators</span>
+				<span class="label">Contributors</span>
 				<span class="value"
 					><span
 						v-for="item in project.collaborators"
@@ -178,6 +179,7 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .project-header {
 	position: relative;
+	overflow: hidden;
 	padding: var(--side-padding);
 	padding-top: 2.5rem;
 	padding-bottom: 1.5rem;

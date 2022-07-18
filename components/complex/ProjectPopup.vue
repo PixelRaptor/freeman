@@ -71,7 +71,7 @@
 					/>
 				</svg>
 			</button>
-			<ImagePopup
+			<ProjectImagePopup
 				:selectedImageGroup="selectedImageGroup"
 				:selectedImageIndex="selectedImageIndex"
 			/>
@@ -82,8 +82,8 @@
 <script lang="ts">
 import Vue from "vue";
 import LinkButton from "../basic/LinkButton.vue";
-import ImagePopup from "./ImagePopup.vue";
 import ProjectHeader from "./ProjectHeader.vue";
+import ProjectImagePopup from "./ProjectImagePopup.vue";
 import { mapGetters } from "vuex";
 export default Vue.extend({
 	name: "ProjectPopup",
@@ -102,7 +102,6 @@ export default Vue.extend({
 	},
 	methods: {
 		showImage(index: any, images: any) {
-			console.log(index, images, "thisx");
 			this.selectedImageIndex = index;
 			this.selectedImageGroup = images;
 			this.popupImage = !this.popupImage;
@@ -124,7 +123,7 @@ export default Vue.extend({
 			// ...
 		]),
 	},
-	components: { LinkButton, ProjectHeader, ImagePopup },
+	components: { LinkButton, ProjectHeader, ProjectImagePopup },
 });
 </script>
 
@@ -223,6 +222,31 @@ export default Vue.extend({
 		grid-gap: 1rem;
 		float: right;
 		margin-right: 1rem;
+		color: var(--black-color);
+		cursor: pointer;
+		&:hover {
+			.label {
+				text-decoration: underline;
+			}
+			.icon {
+				animation-name: floating;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+			}
+
+			@keyframes floating {
+				from {
+					transform: translateX(0px);
+				}
+				65% {
+					transform: translateX(1rem);
+				}
+				to {
+					transform: translateX(-0rem);
+				}
+			}
+		}
 		.label {
 			font-weight: 700;
 			font-size: 2rem;
