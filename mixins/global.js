@@ -8,13 +8,13 @@ export default {
 		projects() {
 			try {
 				if (this.$route.params.id) {
-					return this.getProjects.filter((item: any) => {
+					return this.getProjects.filter((item) => {
 						return item.roles
 							.concat(item.tools)
 							.includes(this.$route.params.id);
 					});
 				} else {
-					return this.getProjects.filter((item: any) => {
+					return this.getProjects.filter((item) => {
 						return item.roles.includes("Developer");
 					});
 				}
