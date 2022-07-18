@@ -9,7 +9,7 @@
 			<p>
 				If you are looking for someone to design or develop an enjoyable
 				expirience for your next website, mobile or web app? Then am the
-				developer you are looking for
+				guy you are looking for.
 			</p>
 			<div class="get-intouch">
 				<a href="mailto:me@uxdev.co.za">Get in touch</a>
