@@ -21,9 +21,8 @@
 				<li><a href="">Instagram</a></li>
 				<li><a href="">Spotify</a></li>
 			</ul>
-
-			<div class="line"></div>
 		</div>
+		<div class="line"></div>
 		<div class="gallery">
 			<h2>Memories</h2>
 			<ul class="photo-grid">
