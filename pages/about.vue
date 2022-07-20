@@ -33,10 +33,26 @@
 			<p>Want to learn more? Let's connect!</p>
 
 			<ul class="links">
-				<li><a href="mailto:">Email</a></li>
-				<li><a href="">LinkedIn</a></li>
-				<li><a href="">Instagram</a></li>
-				<li><a href="">Spotify</a></li>
+				<li><a href="mailto:me@udev.co.za">Email</a></li>
+				<li>
+					<a
+						target="blank"
+						href="https://www.linkedin.com/in/freeman-sibanda-666184157/"
+						>LinkedIn</a
+					>
+				</li>
+				<li>
+					<a target="blank" href="https://twitter.com/CmdRaptor"
+						>Twitter</a
+					>
+				</li>
+				<li>
+					<a
+						target="blank"
+						href="https://open.spotify.com/user/54g5mxd78byjoki16thqhjh1g?si=30a4e866702943da"
+						>Spotify</a
+					>
+				</li>
 			</ul>
 		</div>
 		<div class="line"></div>

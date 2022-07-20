@@ -19,7 +19,7 @@ export default {
 					});
 				} else {
 					return this.getProjects.filter((item) => {
-						return item.roles.includes();
+						return item.roles.includes("Designer");
 					});
 				}
 			} catch (e) {
