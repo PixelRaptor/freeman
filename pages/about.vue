@@ -14,7 +14,7 @@
 				Newest Product:<a
 					class="interest-link"
 					target="blank"
-					href="https://open.spotify.com/track/4kEnkZNhu3soks1CLXfxKq?si=0a3ba4928c5e4c6f"
+					href="https://strapi.io/"
 				>
 					Strapi (Give it a shot!)</a
 				>
