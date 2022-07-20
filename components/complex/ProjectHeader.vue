@@ -6,7 +6,7 @@
 		</div>
 		<div class="left">
 			<p>
-				<span v-for="item in project.tools" :key="item.id">{{
+				<span v-for="item in project.tags" :key="item.id">{{
 					item + ", "
 				}}</span>
 			</p>
@@ -45,7 +45,7 @@
 				class="overlay"
 				v-bind:style="{ background: createBackgroundString() }"
 			></div>
-			<div class="graphic">
+			<div class="graphic" v-bind:style="{ background: project.theme }">
 				<svg
 					viewBox="0 0 980 301"
 					fill="none"
@@ -211,8 +211,9 @@ export default Vue.extend({
 	}
 	.left {
 		p {
-			color: var(--grey-color);
+			//color: var(--grey-color);
 			padding-bottom: 1rem;
+			height: 3.4rem;
 		}
 		.buttons {
 			display: flex;

@@ -12,23 +12,29 @@
 			@click="showPopup()"
 			class="graphic"
 			v-bind:style="{
-				backgroundImage:
-					'url(' +
-					project.content.solution.images[selected].url +
-					')',
+				backgroundImage: 'url(' + selected + ')',
 			}"
 		></div>
 		<div class="thumbnails">
 			<div
-				@click="setImage(index)"
-				v-for="(img, index) in project.content.solution.images"
+				@click="setImage(project.thumbnail)"
+				v-bind:style="{
+					backgroundImage: 'url(' + project.thumbnail + ')',
+				}"
+				v-bind:class="{
+					thumbnail: true,
+					selected: project.thumbnail == selected,
+				}"
+			></div>
+			<div
+				@click="setImage(img.url)"
+				v-for="img in project.content.solution.images"
 				v-bind:style="{
 					backgroundImage: 'url(' + img.url + ')',
 				}"
 				v-bind:class="{
 					thumbnail: true,
-					selected:
-						img.id == project.content.solution.images[selected].id,
+					selected: img.url == selected,
 				}"
 				:key="img.id"
 			></div>
@@ -48,7 +54,7 @@ export default Vue.extend({
 	},
 	data() {
 		return {
-			selected: 0,
+			selected: "",
 			image: {},
 			images: [
 				{
@@ -79,11 +85,13 @@ export default Vue.extend({
 		};
 	},
 	beforeMount() {
-		this.image = this.images[0];
+		try {
+			this.selected = this.project.thumbnail;
+		} catch (e) {}
 	},
 	methods: {
-		setImage(index: number) {
-			this.selected = index;
+		setImage(url: string) {
+			this.selected = url;
 		},
 		showPopup() {
 			this.showProjectPopup(this.project);

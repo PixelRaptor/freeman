@@ -10,7 +10,7 @@ export default {
 				if (this.$route.params.id) {
 					return this.getProjects.filter((item) => {
 						return item.roles
-							.concat(item.tools)
+							.concat(item.tags)
 							.includes(this.$route.params.id);
 					});
 				} else {

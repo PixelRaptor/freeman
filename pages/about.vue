@@ -10,8 +10,25 @@
 				Apps, Data Visualisation, Typeface and Motion design.
 			</p>
 			<br />
-			<p>Newest Product: Postman (Give it a shot!)</p>
-			<p>Currently Listening To:Toast, Koffee</p>
+			<p>
+				Newest Product:<a
+					class="interest-link"
+					target="blank"
+					href="https://open.spotify.com/track/4kEnkZNhu3soks1CLXfxKq?si=0a3ba4928c5e4c6f"
+				>
+					Strapi (Give it a shot!)</a
+				>
+			</p>
+			<p>
+				Currently Listening To:
+				<a
+					class="interest-link"
+					target="blank"
+					href="https://open.spotify.com/track/4kEnkZNhu3soks1CLXfxKq?si=0a3ba4928c5e4c6f"
+				>
+					Nayi Ingozi, TOSS</a
+				>
+			</p>
 			<br />
 			<p>Want to learn more? Let's connect!</p>
 
@@ -105,6 +122,11 @@ export default Vue.extend({
 	}
 }
 
+a.interest-link {
+	font-weight: 500;
+	color: var(--scheme-color);
+	text-decoration: none;
+}
 @media only screen and (min-width: 672px) {
 	.about {
 		.bio {

@@ -7,7 +7,7 @@
 				:project="{
 					title: project.title,
 					theme: project.theme,
-					tools: project.tools,
+					tags: project.tags,
 					resource: project.resource,
 					demo: project.demo,
 					roles: project.roles,
@@ -146,7 +146,7 @@ export default Vue.extend({
 			padding-top: 0.5rem;
 			padding-bottom: 2rem;
 			.section {
-				padding-top: 1rem;
+				padding-top: 1.5rem;
 				text-align: left;
 				.text {
 					/*padding: var(--side-padding);*/
