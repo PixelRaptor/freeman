@@ -4,7 +4,7 @@ export const state = () => ({
 			id: "8",
 			title: "Afya Pap Blog",
 			theme: "#F19B3E",
-			tags: ["Nuxtjs", "Nodejs", "Figma", "Typescript", "VScode", "SCSS"],
+			tags: ["nuxtjs", "Nodejs", "Figma", "Typescript", "VScode", "SCSS"],
 			resource: {
 				type: "Figma",
 				link: "www.resource.com",
@@ -215,7 +215,7 @@ export const state = () => ({
 			},
 		},
 		{
-			id: "13",
+			id: "12",
 			title: "Dstv",
 			theme: "#0095DA",
 			tags: [

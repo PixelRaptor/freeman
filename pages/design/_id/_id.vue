@@ -22,19 +22,6 @@ export default Vue.extend({
 	components: { ProjectThumb },
 	computed: {
 		// mix the getters into computed with object spread operator
-		projects() {
-			if (this.$route.params.id) {
-				return this.getProjects.filter((item: any) => {
-					return item.roles
-						.concat(item.tools)
-						.includes(this.$route.params.id);
-				});
-			} else {
-				return this.getProjects.filter((item: any) => {
-					return item.roles.includes("Designer");
-				});
-			}
-		},
 		...mapGetters([
 			"getProjects",
 			// ...
