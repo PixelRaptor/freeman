@@ -43,7 +43,11 @@
 		<div class="gallery">
 			<h2>Memories</h2>
 			<ul class="photo-grid">
-				<Photo v-for="image in gallery" :image="image" />
+				<Photo
+					v-for="image in gallery"
+					:image="image"
+					:key="image.id"
+				/>
 			</ul>
 		</div>
 	</div>
