@@ -32,6 +32,12 @@ import ProjectPopup from "~/components/complex/ProjectPopup.vue";
 export default Vue.extend({
 	name: "LayoutPage",
 	components: { TopBar, PageFooter, ProjectPopup },
+	// mounted() {
+	// 	this.$nextTick(() => {
+	// 		this.$nuxt.$loading.start();
+	// 		setTimeout(() => this.$nuxt.$loading.finish(), 2000);
+	// 	});
+	// },
 });
 </script>
 

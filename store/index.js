@@ -29,28 +29,6 @@ export const state = () => ({
 						"- Dynamic links that would open the mobile app if you already have it installed, otherwise it would just route you to the article web page",
 						"- Shareable web links with dynamic meta tags",
 					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
-					],
 				},
 				solution: {
 					section: "solution",

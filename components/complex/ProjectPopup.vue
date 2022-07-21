@@ -16,11 +16,11 @@
 			/>
 			<div class="content">
 				<div class="section" v-for="i in project.content" :key="i.id">
-					<div class="text">
+					<div v-if="i.passage" class="text">
 						<h2>{{ i.section }}</h2>
 						<p v-for="p in i.passage" :key="p.id">{{ p }}</p>
 					</div>
-					<ul class="photo-carousel">
+					<ul v-if="i.images" class="photo-carousel">
 						<li v-for="(img, index) in i.images" :key="img.id">
 							<img
 								:src="img.url"

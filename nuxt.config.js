@@ -17,6 +17,17 @@ export default {
 				rel: "stylesheet",
 				href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap",
 			},
+			{
+				rel: "stylesheet",
+				href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+			},
+		],
+		script: [
+			{
+				src: "https://code.jquery.com/jquery-3.5.1.min.js",
+				async: true,
+				crossorigin: "anonymous",
+			},
 		],
 	},
 
@@ -67,4 +78,7 @@ export default {
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {},
+	// components: true,
+
+	// loading: "~/components/LoadingBar.vue",
 };
