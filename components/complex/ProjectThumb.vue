@@ -116,6 +116,7 @@ export default Vue.extend({
 			font-weight: 500;
 			font-size: 1rem;
 			line-height: 1.3;
+			text-transform: capitalize;
 		}
 	}
 	.graphic {

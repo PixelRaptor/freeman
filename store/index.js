@@ -4,14 +4,14 @@ export const state = () => ({
 			id: "8",
 			title: "Afya Pap Blog",
 			theme: "#F19B3E",
-			tags: ["nuxtjs", "Nodejs", "Figma", "Typescript", "VScode", "SCSS"],
+			tags: ["nuxtjs", "nodejs", "figma", "typescript", "vscode", "scss"],
 			resource: {
 				type: "Figma",
 				link: "www.resource.com",
 				disabled: true,
 			},
 			demo: "https://blog.afyapap.com/",
-			roles: ["Developer", "Designer"],
+			roles: ["developer", "designer"],
 			collaborators: [
 				{ name: "Bakani Pilime", id: "bmpz@github.com" },
 				{
@@ -20,7 +20,7 @@ export const state = () => ({
 				},
 			],
 			thumbnail:
-				"http://uxdev.mo.cloudinary.net/baobab-logo-tile_FLSUP3QQB.png",
+				"http://uxdev.mo.cloudinary.net/baobab-circle_qNhgxPgJ6.png",
 			content: {
 				overview: {
 					section: "overview",
@@ -42,23 +42,28 @@ export const state = () => ({
 					images: [
 						{
 							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
-							title: "Cover",
-							url: "http://uxdev.mo.cloudinary.net/desktop_j20CbaLir.png",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+						},
+						{
+							id: 5,
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
@@ -73,21 +78,6 @@ export const state = () => ({
 							title: "Cover",
 							url: "http://uxdev.mo.cloudinary.net/desktop_j20CbaLir.png",
 						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
 					],
 				},
 			},
@@ -95,45 +85,23 @@ export const state = () => ({
 		{
 			id: "9",
 			title: "Shumba Money",
-			theme: "#007B9E",
-			tags: ["iOS", "Android", "Figma", "illustrator", "Kotlin", "Swift"],
+			theme: "#CE0E2D",
+			tags: ["ios", "android", "figma", "illustrator", "kotlin", "swift"],
 			resource: {
 				type: "Github",
 				link: "www.resource.com",
 				disabled: false,
 			},
 			demo: "www.demo.com",
-			roles: ["Designer"],
+			roles: ["designer"],
 			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
 			thumbnail:
-				"http://uxdev.mo.cloudinary.net/baobab-logo-tile_FLSUP3QQB.png",
+				"http://uxdev.mo.cloudinary.net/shumba-money_fXFHk0Jg9.png",
 			content: {
 				overview: {
 					section: "overview",
 					passage: [
 						"Shumba money already had a working web app that their users were already using for about a year, they felt it was time to introduce a navtive mobile app along the web app to make the process more friendly and enjoyable. So we had to design an iOS and Android version of the app, and we were to add extra features and revamp the userflow. ",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
 					],
 				},
 				solution: {
@@ -141,54 +109,38 @@ export const state = () => ({
 					passage: [
 						" We used qualitative research methods, and this was implimented by observing our shumba money users using the web app and secondary research. Because this was an already existing app we had an advantage of knowing what the users enjoy and their painpoints, this helped us come up with key focus points at the early stages of our user research. We looked into a couple of competitors which provided similar services and how they implemented their solutions to same of the challenges that Shumba money users faced on the web app. The designs and the prototypes were done on Figma. Since the app was to be available on two different platforms, we had to create to  seperate designs that had minor differences to accomodate the different requirements for different platforms",
 					],
+
 					images: [
 						{
 							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+						},
+						{
+							id: 5,
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
 				results: {
 					section: "results",
 					passage: ["The final designs for the iOS and Android app"],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
-					],
 				},
 			},
 		},
@@ -197,13 +149,13 @@ export const state = () => ({
 			title: "Dstv",
 			theme: "#0095DA",
 			tags: [
-				"Angular",
-				"Express",
-				"Nodejs",
-				"Figma",
+				"angular",
+				"express",
+				"nodejs",
+				"figma",
 				"illustrator",
-				"VScode",
-				"Heroku",
+				"vScode",
+				"heroku",
 			],
 			resource: {
 				type: "Github",
@@ -211,10 +163,9 @@ export const state = () => ({
 				disabled: false,
 			},
 			demo: "www.demo.com",
-			roles: ["Designer", "Developer"],
+			roles: ["designer", "developer"],
 			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail:
-				"http://uxdev.mo.cloudinary.net/baobab-logo-tile_FLSUP3QQB.png",
+			thumbnail: "http://uxdev.mo.cloudinary.net/dstv_yl9E_oLYj.png",
 			content: {
 				overview: {
 					passage: [
@@ -222,28 +173,6 @@ export const state = () => ({
 						"How did the problem arise",
 						"Tell about your user and what they’re experiencing or challenged? (Such as Pain Points)",
 						"Why is this problem significant?",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
 					],
 				},
 				solution: {
@@ -256,23 +185,28 @@ export const state = () => ({
 					images: [
 						{
 							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+						},
+						{
+							id: 5,
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
@@ -282,44 +216,22 @@ export const state = () => ({
 						"How did the problem arise",
 						"Tell about your user and what they’re experiencing or challenged? (Such as Pain Points)",
 						"Why is this problem significant?",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
 					],
 				},
 			},
 		},
 		{
 			id: "13",
-			title: "Foodie",
+			title: "Fuddy",
 			theme: "#EF6433",
 			tags: [
-				"Angular",
-				"Express",
-				"Nodejs",
-				"Figma",
+				"angular",
+				"express",
+				"nodejs",
+				"figma",
 				"illustrator",
-				"VScode",
-				"Heroku",
+				"vscode",
+				"heroku",
 			],
 			resource: {
 				type: "Github",
@@ -327,10 +239,9 @@ export const state = () => ({
 				disabled: false,
 			},
 			demo: "www.demo.com",
-			roles: ["Designer", "Developer"],
+			roles: ["designer", "developer"],
 			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail:
-				"http://uxdev.mo.cloudinary.net/baobab-logo-tile_FLSUP3QQB.png",
+			thumbnail: "http://uxdev.mo.cloudinary.net/fuddy_DHUAKUS-o.png",
 			content: {
 				overview: {
 					passage: [
@@ -338,28 +249,6 @@ export const state = () => ({
 						"How did the problem arise",
 						"Tell about your user and what they’re experiencing or challenged? (Such as Pain Points)",
 						"Why is this problem significant?",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
 					],
 				},
 				solution: {
@@ -372,23 +261,28 @@ export const state = () => ({
 					images: [
 						{
 							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+						},
+						{
+							id: 5,
+							title: "",
+							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
@@ -398,28 +292,6 @@ export const state = () => ({
 						"How did the problem arise",
 						"Tell about your user and what they’re experiencing or challenged? (Such as Pain Points)",
 						"Why is this problem significant?",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/userupload/2901743/file/original-bf2ab5392f3e8b6c14a3c6e5c1f71fed.png?compress=1&resize=1600x1200",
-						},
-						{
-							id: 2,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17513391/media/ddd43ee3ba024f4848274c0e3aa68e94.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 3,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17570234/media/48fa9fc2ab3a6a21862428ae047b524a.png?compress=1&resize=1600x1200&vertical=top",
-						},
-						{
-							id: 4,
-							title: "Cover",
-							url: "https://cdn.dribbble.com/users/4189231/screenshots/17532369/media/a6dadd4c8ef9e9eab31a8c8f2db5e1ae.png?compress=1&resize=1600x1200&vertical=top",
-						},
 					],
 				},
 			},

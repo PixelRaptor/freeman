@@ -14,20 +14,24 @@ export default Vue.extend({
 		return {
 			categories: [
 				{
-					label: "Interaction",
-					id: "interaction",
+					label: "Figma",
+					id: "figma",
 				},
 				{
-					label: "Visual",
-					id: "visual",
+					label: "Adobe Xd",
+					id: "xd",
 				},
 				{
-					label: "Motion",
-					id: "motion",
+					label: "InVision Studio",
+					id: "invision",
 				},
 				{
-					label: "Typeface & Icon",
-					id: "typeface",
+					label: "Origami Studio",
+					id: "origami",
+				},
+				{
+					label: "illustrator",
+					id: "illustrator",
 				},
 			],
 			routeprefix: "/design/",

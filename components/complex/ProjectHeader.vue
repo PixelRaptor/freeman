@@ -242,6 +242,7 @@ export default Vue.extend({
 				font-weight: 500;
 				font-size: 1rem;
 				color: #000000;
+				text-transform: capitalize;
 			}
 		}
 	}
