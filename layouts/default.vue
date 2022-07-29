@@ -3,9 +3,6 @@
 		<TopBar />
 		<Hero />
 		<ul class="router-tabs">
-			<!-- <li class="link">
-				<nuxt-link to="/">All</nuxt-link>
-			</li> -->
 			<li class="link">
 				<nuxt-link to="/design">Design</nuxt-link>
 			</li>
