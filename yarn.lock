@@ -10976,10 +10976,6 @@
   "resolved" "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   "version" "1.0.1"
 
-"v-wow@https://github.com/guisoares2011/vue-wow":
-  "resolved" "git+ssh://git@github.com/guisoares2011/vue-wow.git#dd06e2d2611be6635b9cc8ca329a0244f792d04e"
-  "version" "1.2.1"
-
 "v8-to-istanbul@^8.1.0":
   "integrity" "sha512-FGtKtv3xIpR6BYhvgH8MI/y78oT7d8Au3ww4QIxymrCtZEh5b8gCw2siywE+puhEmuWKDtmfrvF5UlB298ut3w=="
   "resolved" "https://registry.npmjs.org/v8-to-istanbul/-/v8-to-istanbul-8.1.1.tgz"
