@@ -20,7 +20,7 @@ export const state = () => ({
 				},
 			],
 			thumbnail:
-				"http://uxdev.mo.cloudinary.net/baobab-circle_qNhgxPgJ6.png",
+				"https://uxdev.mo.cloudinary.net/baobab-circle_qNhgxPgJ6.png",
 			content: {
 				overview: {
 					section: "overview",
@@ -43,27 +43,27 @@ export const state = () => ({
 						{
 							id: 1,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
 						},
 						{
 							id: 5,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
@@ -76,7 +76,7 @@ export const state = () => ({
 						{
 							id: 1,
 							title: "Cover",
-							url: "http://uxdev.mo.cloudinary.net/desktop_j20CbaLir.png",
+							url: "https://uxdev.mo.cloudinary.net/desktop_j20CbaLir.png",
 						},
 					],
 				},
@@ -96,7 +96,7 @@ export const state = () => ({
 			roles: ["designer"],
 			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
 			thumbnail:
-				"http://uxdev.mo.cloudinary.net/shumba-money_fXFHk0Jg9.png",
+				"https://uxdev.mo.cloudinary.net/shumba-money_fXFHk0Jg9.png",
 			content: {
 				overview: {
 					section: "overview",
@@ -114,27 +114,27 @@ export const state = () => ({
 						{
 							id: 1,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
 						},
 						{
 							id: 5,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
@@ -165,7 +165,7 @@ export const state = () => ({
 			demo: "www.demo.com",
 			roles: ["designer", "developer"],
 			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "http://uxdev.mo.cloudinary.net/dstv_yl9E_oLYj.png",
+			thumbnail: "https://uxdev.mo.cloudinary.net/dstv_yl9E_oLYj.png",
 			content: {
 				overview: {
 					passage: [
@@ -186,27 +186,27 @@ export const state = () => ({
 						{
 							id: 1,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
 						},
 						{
 							id: 5,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
@@ -241,7 +241,7 @@ export const state = () => ({
 			demo: "www.demo.com",
 			roles: ["developer"],
 			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "http://uxdev.mo.cloudinary.net/fuddy_DHUAKUS-o.png",
+			thumbnail: "https://uxdev.mo.cloudinary.net/fuddy_DHUAKUS-o.png",
 			content: {
 				overview: {
 					passage: [
@@ -262,27 +262,27 @@ export const state = () => ({
 						{
 							id: 1,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
 						},
 						{
 							id: 2,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
 						},
 						{
 							id: 3,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
 						},
 						{
 							id: 4,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
 						},
 						{
 							id: 5,
 							title: "",
-							url: "http://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
 						},
 					],
 				},
