@@ -239,7 +239,7 @@ export const state = () => ({
 				disabled: false,
 			},
 			demo: "www.demo.com",
-			roles: ["designer", "developer"],
+			roles: ["developer"],
 			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
 			thumbnail: "http://uxdev.mo.cloudinary.net/fuddy_DHUAKUS-o.png",
 			content: {
