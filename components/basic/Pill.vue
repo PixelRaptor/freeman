@@ -38,5 +38,13 @@ export default {
 		background: var(--black-color);
 		color: var(--white-color);
 	}
+	&:hover {
+		background: var(--black-color);
+		color: var(--white-color);
+	}
+	&:active {
+		background: var(--white-color);
+		color: var(--black-color);
+	}
 }
 </style>

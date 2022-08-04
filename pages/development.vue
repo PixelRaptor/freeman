@@ -9,7 +9,7 @@ import Vue from "vue";
 import Categories from "~/components/complex/Categories.vue";
 
 export default Vue.extend({
-	name: "Development",
+	name: "DevelopmentPage",
 	data() {
 		return {
 			categories: [

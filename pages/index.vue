@@ -1,21 +1,12 @@
 <template>
 	<div class="categories">
-		<ul class="category-pills">
-			<Pill :value="{ label: 'All', count: 3, id: '' }" :key="1" />
-			<Pill
-				:value="category"
-				v-for="category in categories"
-				:key="category.id"
-			/>
-		</ul>
-		<NuxtChild />
+		<Categories :categories="categories" :routeprefix="routeprefix" />
 	</div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import Pill from "~/components/basic/Pill.vue";
-import TopBar from "~/components/TopBar.vue";
+import Categories from "~/components/complex/Categories.vue";
 
 export default Vue.extend({
 	name: "IndexPage",
@@ -75,19 +66,11 @@ export default Vue.extend({
 					id: "html",
 				},
 			],
+			routeprefix: "/",
 		};
 	},
-	components: { TopBar, Pill },
+	components: { Categories },
 });
 </script>
 
-<style lang="scss" scoped>
-.categories {
-	padding-top: 1.2rem;
-	.category-pills {
-		list-style: none;
-		display: flex;
-		flex-wrap: wrap;
-	}
-}
-</style>
+<style lang="scss" scoped></style>

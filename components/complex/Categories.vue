@@ -40,7 +40,7 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .categories {
-	padding-top: 1.38rem;
+	padding-top: 1.2rem;
 	.category-pills {
 		list-style: none;
 		display: flex;

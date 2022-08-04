@@ -43,22 +43,22 @@ export const state = () => ({
 						{
 							id: 1,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-mobile_OhVtQdrkP.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
 						},
 						{
 							id: 2,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-1_7YkCaDAXv.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
 						},
 						{
 							id: 3,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-2_ID7q3eC5C.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
 						},
 						{
 							id: 4,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-3_OLMF2_WmL.png",
+							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
 						},
 						{
 							id: 5,

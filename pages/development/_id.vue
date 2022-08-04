@@ -11,10 +11,9 @@
 <script lang="ts">
 import Vue from "vue";
 import ProjectThumb from "~/components/complex/ProjectThumb.vue";
-import { mapGetters } from "vuex";
 import global from "~/mixins/global";
 export default Vue.extend({
-	name: "development",
+	name: "DevelopmentCategories",
 	data() {
 		return {};
 	},

@@ -130,7 +130,7 @@ export default Vue.extend({
 					.label {
 						display: block;
 						font-weight: 600;
-						font-size: 1.1rem;
+						font-size: 1rem;
 						line-height: 1.3;
 						color: var(--black-color);
 					}
