@@ -12,14 +12,8 @@ export default {
 					return this.getProjects.filter((item) => {
 						return item.tags.includes(this.$route.params.id);
 					});
-				} else if (this.$route.name == "development-id") {
-					return this.getProjects.filter((item) => {
-						return item.roles.includes("developer");
-					});
-				} else if (this.$route.name == "design-id") {
-					return this.getProjects.filter((item) => {
-						return item.roles.includes("designer");
-					});
+				} else if (this.$route.name == "works-id") {
+					return this.getProjects;
 				} else if (this.$route.name == "index-id") {
 					return this.getProjects.filter((item) => {
 						return (

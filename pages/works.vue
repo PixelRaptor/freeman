@@ -14,6 +14,18 @@ export default Vue.extend({
 		return {
 			categories: [
 				{
+					label: "Interaction Design",
+					id: "interaction",
+				},
+				{
+					label: "Visual Design",
+					id: "visual",
+				},
+				{
+					label: "Motion Design",
+					id: "motion",
+				},
+				{
 					label: "React",
 					id: "react",
 				},
@@ -45,12 +57,8 @@ export default Vue.extend({
 					label: "Typescript",
 					id: "typescript",
 				},
-				{
-					label: "HTML",
-					id: "html",
-				},
 			],
-			routeprefix: "/development/",
+			routeprefix: "/works/",
 		};
 	},
 	components: {

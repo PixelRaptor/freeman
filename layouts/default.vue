@@ -4,10 +4,7 @@
 		<Hero />
 		<ul class="router-tabs">
 			<li class="link">
-				<nuxt-link to="/design">Design</nuxt-link>
-			</li>
-			<li class="link">
-				<nuxt-link to="/development">Development</nuxt-link>
+				<nuxt-link to="/works">Works</nuxt-link>
 			</li>
 			<li class="link">
 				<nuxt-link to="/about">About me</nuxt-link>
@@ -44,7 +41,7 @@ export default Vue.extend({
 	.router-tabs {
 		display: flex;
 		justify-content: space-between;
-		max-width: 20rem;
+		max-width: 11rem;
 		list-style: none;
 		margin: 4rem 0px 1rem;
 
@@ -64,7 +61,6 @@ export default Vue.extend({
 @media only screen and (min-width: 672px) {
 	.layout {
 		.router-tabs {
-			max-width: 22rem;
 			margin: 3rem 0px 1rem;
 			.link {
 				a {

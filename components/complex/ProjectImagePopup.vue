@@ -5,7 +5,11 @@
 			backgroundImage: 'url(' + selectedImageGroup[selected].url + ')',
 		}"
 	>
-		<button class="nav-button go-left-button" @click="goLeft()">
+		<button
+			class="nav-button go-left-button"
+			@click="goLeft()"
+			v-on:keyup.left="goLeft()"
+		>
 			<svg
 				width="320"
 				height="512"
@@ -18,7 +22,11 @@
 				/>
 			</svg>
 		</button>
-		<button class="nav-button go-right-button" @click="goRight()">
+		<button
+			class="nav-button go-right-button"
+			@click="goRight()"
+			v-on:keyup.right="goRight()"
+		>
 			<svg
 				width="320"
 				height="512"
