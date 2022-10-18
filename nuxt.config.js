@@ -19,6 +19,10 @@ export default {
 			},
 			{
 				rel: "stylesheet",
+				href: "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap",
+			},
+			{
+				rel: "stylesheet",
 				href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
 			},
 		],

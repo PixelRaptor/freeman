@@ -25,8 +25,11 @@ html {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
-	h1 {
+	h1,
+	h2 {
 		margin: 0px;
+		font-family: "DM Serif Display", serif;
+		font-weight: 600;
 	}
 	p {
 		font-size: 1rem;

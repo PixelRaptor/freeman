@@ -45,11 +45,10 @@ export default Vue.extend({
 	.text {
 		h1 {
 			text-align: left;
-			font-weight: 700;
 			font-size: 2.81rem;
-			line-height: 1.3;
+			line-height: 1.2ß;
 			.outline-text {
-				font-weight: 600;
+				font-weight: 400;
 				color: transparent;
 				-webkit-text-stroke: 1px #333;
 				-webkit-text-stroke-color: #000;
@@ -57,6 +56,7 @@ export default Vue.extend({
 		}
 		p {
 			padding-bottom: 1.93rem;
+			padding-top: 1rem;
 		}
 		.get-intouch {
 			text-align: left;

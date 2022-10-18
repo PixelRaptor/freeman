@@ -3,9 +3,10 @@
 		<div class="labels">
 			<h2>{{ project.title }}</h2>
 			<p>
-				<span v-for="item in project.roles" :key="item.id">{{
-					item + ", "
-				}}</span>
+				<span v-for="(item, index) in project.roles" :key="item.id"
+					>{{ item
+					}}<span v-if="index < project.roles.length - 1">, </span>
+				</span>
 			</p>
 		</div>
 		<div
@@ -108,9 +109,8 @@ export default Vue.extend({
 	.labels {
 		text-align: left;
 		h2 {
-			font-weight: 700;
-			font-size: 1.56rem;
-			line-height: 1.5;
+			font-size: 1.8rem;
+			line-height: 1.4;
 		}
 		p {
 			font-weight: 500;
