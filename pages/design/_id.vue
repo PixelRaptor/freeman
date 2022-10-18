@@ -32,7 +32,7 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .works {
-	padding-top: 0.5rem;
+	padding-top: 1rem;
 }
 
 @media only screen and (min-width: 672px) {

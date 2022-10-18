@@ -7,7 +7,7 @@
 				Freeman Sibanda
 			</h1>
 			<p>
-				If you are looking for someone to design or develop an enjoyable
+				Are you looking for someone to design or develop an enjoyable
 				expirience for your next website, mobile or web app? Then am the
 				guy you are looking for.
 			</p>
