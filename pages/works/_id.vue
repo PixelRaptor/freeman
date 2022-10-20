@@ -1,5 +1,5 @@
 <template>
-	<ul class="works">
+	<ul class="works" id="projects">
 		<ProjectThumb
 			v-for="project in projects"
 			:key="project.id"
@@ -26,6 +26,7 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .works {
 	padding-top: 1rem;
+	scroll-margin-top: 5rem;
 }
 
 @media only screen and (min-width: 672px) {

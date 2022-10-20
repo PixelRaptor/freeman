@@ -1,5 +1,5 @@
 <template>
-	<nuxt-link :to="routeprefix + value.id" class="pill">
+	<nuxt-link :to="routeprefix + value.id + '#projects'" class="pill">
 		<img class="icon" :src="value.icon" width="15" height="15" />
 		<span>{{ value.label }}</span>
 	</nuxt-link>

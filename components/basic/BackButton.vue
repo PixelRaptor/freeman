@@ -9,7 +9,6 @@
 				>
 					<path
 						d="M22.5 11.25V13.75H7.5L12.5 18.75L11.25 21.25L2.5 12.5L11.25 3.75L12.5 6.25L7.5 11.25H22.5Z"
-						fill="black"
 					/>
 				</svg></div
 		></span>
@@ -51,6 +50,13 @@ export default Vue.extend({
 	&:active {
 		background: var(--black-color);
 		color: var(--white-color);
+		span {
+			.back-icon {
+				svg {
+					fill: var(--white-color);
+				}
+			}
+		}
 	}
 	span {
 		display: grid;
@@ -60,6 +66,8 @@ export default Vue.extend({
 			svg {
 				width: 1.18rem;
 				margin: auto;
+				padding-bottom: 0.05rem;
+				fill: var(--black-color);
 			}
 		}
 	}

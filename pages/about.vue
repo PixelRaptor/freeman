@@ -1,5 +1,5 @@
 <template>
-	<div class="about">
+	<div class="about" id="me">
 		<div class="bio">
 			<p>
 				Hey there, I'm Freeman!. I'm a UX Designer/Engineer with a

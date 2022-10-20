@@ -26,8 +26,8 @@ export const state = () => ({
 					section: "overview",
 					passage: [
 						"Baobab Circle required a web version of their Afya Pap health articles. The main reason was to enable patients, caregivers and health professionals to share health articles with everyone even if they didn't have the mobile app. There were 2 key requirements and these were:",
-						"- Dynamic links that would open the mobile app if you already have it installed, otherwise it would just route you to the article web page",
-						"- Shareable web links with dynamic meta tags",
+						// "- Dynamic links that would open the mobile app if you already have it installed, otherwise it would just route you to the article web page",
+						// "- Shareable web links with dynamic meta tags",
 					],
 				},
 				solution: {
@@ -35,9 +35,9 @@ export const state = () => ({
 					passage: [
 						"We creeated a new design system for the web as there was already a plan to bring the whole app to the web at in future while design the web app, and the design was done on Figma, then created interactive prototypes using Origami studio.",
 						"On the development side the main things we had to consider when comming up with the solution for this project were the frontend framework, media optimisation and hosting. ",
-						"- For the frontend framework we decided to use Nuxtjs, a JavaScript library based on Vue.js. We chose it because it has Server Side Rendering and Dynamic Meta, which allowed us to display key information when sharing articles on social media. It also came with a posiitive impact on the SEO",
-						"- This was going to be an image heavy product, so the implementation of media optimisation was important. This was implemented by using cloudinary ",
-						"- We had a couple of options for hosting but we ended up setting up our own server, main reason being Server Side Rendering",
+						// "- For the frontend framework we decided to use Nuxtjs, a JavaScript library based on Vue.js. We chose it because it has Server Side Rendering and Dynamic Meta, which allowed us to display key information when sharing articles on social media. It also came with a posiitive impact on the SEO",
+						// "- This was going to be an image heavy product, so the implementation of media optimisation was important. This was implemented by using cloudinary ",
+						// "- We had a couple of options for hosting but we ended up setting up our own server, main reason being Server Side Rendering",
 					],
 					images: [
 						{
@@ -163,6 +163,7 @@ export const state = () => ({
 			thumbnail: "https://uxdev.mo.cloudinary.net/dstv_yl9E_oLYj.png",
 			content: {
 				overview: {
+					section: "overview",
 					passage: [
 						"For the challenge or problem statement, state the key issue that the challenge/problem is impacting the user.",
 						"How did the problem arise",
@@ -171,6 +172,7 @@ export const state = () => ({
 					],
 				},
 				solution: {
+					section: "solution",
 					passage: [
 						"For the challenge or problem statement, state the key issue that the challenge/problem is impacting the user.",
 						"How did the problem arise",
@@ -211,6 +213,7 @@ export const state = () => ({
 					],
 				},
 				results: {
+					section: "results",
 					passage: [
 						"For the challenge or problem statement, state the key issue that the challenge/problem is impacting the user.",
 						"How did the problem arise",
@@ -244,6 +247,7 @@ export const state = () => ({
 			thumbnail: "https://uxdev.mo.cloudinary.net/fuddy_DHUAKUS-o.png",
 			content: {
 				overview: {
+					section: "overview",
 					passage: [
 						"For the challenge or problem statement, state the key issue that the challenge/problem is impacting the user.",
 						"How did the problem arise",
@@ -252,6 +256,7 @@ export const state = () => ({
 					],
 				},
 				solution: {
+					section: "solution",
 					passage: [
 						"For the challenge or problem statement, state the key issue that the challenge/problem is impacting the user.",
 						"How did the problem arise",
@@ -287,6 +292,7 @@ export const state = () => ({
 					],
 				},
 				results: {
+					section: "results",
 					passage: [
 						"For the challenge or problem statement, state the key issue that the challenge/problem is impacting the user.",
 						"How did the problem arise",

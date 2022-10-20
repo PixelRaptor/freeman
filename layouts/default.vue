@@ -4,10 +4,10 @@
 		<Hero />
 		<ul class="router-tabs">
 			<li class="link">
-				<nuxt-link to="/works">Works</nuxt-link>
+				<nuxt-link to="/#works">Works</nuxt-link>
 			</li>
 			<li class="link">
-				<nuxt-link to="/about">About me</nuxt-link>
+				<nuxt-link to="/about#me">About me</nuxt-link>
 			</li>
 		</ul>
 		<div class="line"></div>
