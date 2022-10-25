@@ -114,22 +114,22 @@ export const state = () => ({
 						{
 							id: 1,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-1.jpg",
+							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-1",
 						},
 						{
 							id: 2,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-2.jpg",
+							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-2",
 						},
 						{
 							id: 3,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-3.jpg",
+							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-3",
 						},
 						{
 							id: 4,
 							title: "",
-							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-4.jpg",
+							url: "https://uxdev.mo.cloudinary.net/shumba-money-frame-4",
 						},
 					],
 				},

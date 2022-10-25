@@ -20,16 +20,12 @@
 						<h2>{{ i.section }}</h2>
 						<p v-for="p in i.passage" :key="p.id">{{ p }}</p>
 					</div>
-					<ul v-if="i.images" class="photo-carousel">
-						<li v-for="(img, index) in i.images" :key="img.id">
-							<img
-								:src="img.url"
-								:alt="img.title"
-								srcset=""
-								@click="showImage(index, i.images)"
-							/>
-						</li>
-					</ul>
+					<PhotoCarousel
+						v-if="i.images"
+						class="photo-carousel"
+						:images="i.images"
+						:theme="project.theme"
+					/>
 				</div>
 				<div class="wireframes"></div>
 				<div class="mockups"></div>
@@ -85,6 +81,7 @@ import LinkButton from "../basic/LinkButton.vue";
 import ProjectHeader from "./ProjectHeader.vue";
 import ProjectImagePopup from "./ProjectImagePopup.vue";
 import { mapGetters } from "vuex";
+import PhotoCarousel from "./PhotoCarousel.vue";
 export default Vue.extend({
 	name: "ProjectPopup",
 	data() {
@@ -123,7 +120,7 @@ export default Vue.extend({
 			// ...
 		]),
 	},
-	components: { LinkButton, ProjectHeader, ProjectImagePopup },
+	components: { LinkButton, ProjectHeader, ProjectImagePopup, PhotoCarousel },
 });
 </script>
 
@@ -158,18 +155,6 @@ export default Vue.extend({
 					}
 					ul {
 						/*list-style: inside;*/
-					}
-				}
-				.photo-carousel {
-					display: flex;
-					overflow-x: scroll;
-					padding: var(--side-padding);
-					padding-top: 1rem;
-					img {
-						cursor: pointer;
-						height: 16rem;
-						margin-right: 0.5rem;
-						border-radius: 2px;
 					}
 				}
 			}
@@ -293,8 +278,13 @@ export default Vue.extend({
 						padding: 0px 2.62rem;
 					}
 					.photo-carousel {
-						width: calc(100vw - ((100vw - 56.25rem) / 2) - 4rem);
+						width: 100%;
 						padding: 1rem 2.62rem 0px;
+						.graphic {
+							width: 100%;
+							height: 40rem;
+							background-size: contain;
+						}
 						img {
 							height: 19rem;
 						}
@@ -315,7 +305,7 @@ export default Vue.extend({
 			.content {
 				.section {
 					.photo-carousel {
-						width: calc(100vw - ((100vw - 75rem) / 2) - 4rem);
+						width: 100%;
 
 						img {
 							height: 24rem;
