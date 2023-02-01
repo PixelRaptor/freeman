@@ -9,7 +9,13 @@
 				class="graphic_background"
 				id="graphic_background"
 			></div>
-			<img id="graphic" :src="selected" alt="" crossorigin="anonymous" />
+			<img
+				id="graphic"
+				@click="$emit('click', selected)"
+				:src="selected"
+				alt=""
+				crossorigin="anonymous"
+			/>
 		</div>
 		<div class="thumbnails">
 			<div
@@ -202,6 +208,14 @@ export default Vue.extend({
 
 @media only screen and (min-width: 1230px) {
 	.photo-carousel {
+		.thumbnails {
+			display: grid;
+			grid-template-columns: repeat(6, minmax(6rem, 1fr));
+			grid-gap: 0.5rem;
+			.thumbnail {
+				height: 6rem;
+			}
+		}
 	}
 }
 </style>

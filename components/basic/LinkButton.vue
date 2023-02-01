@@ -1,6 +1,9 @@
 <template>
 	<a
-		:href="link"
+		:href="disabled ? 'javascript:void(0)' : link"
+		:style="{
+			pointerEvents: disabled ? 'none' : 'auto',
+		}"
 		target="_blank"
 		rel="external"
 		type="text/html"
@@ -21,6 +24,9 @@ export default Vue.extend({
 		label: {
 			type: String,
 			default: "Click Me",
+		},
+		disabled: {
+			type: Boolean,
 		},
 	},
 });

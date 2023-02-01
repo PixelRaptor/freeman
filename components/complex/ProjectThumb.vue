@@ -123,7 +123,7 @@ export default Vue.extend({
 		cursor: pointer;
 		background: var(--grey-color);
 		height: 15rem;
-		margin-top: 0.8rem;
+		margin-top: 1rem;
 		border-radius: var(--border-radius);
 		background-position: center;
 		background-size: cover;

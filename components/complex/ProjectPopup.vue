@@ -31,8 +31,8 @@
 				<div class="mockups"></div>
 			</div>
 			<div class="bottom-navigation">
-				<button class="view-next-project">
-					<span class="label">Cinema3</span>
+				<button @click="nextProject()" class="view-next-project">
+					<span class="label">{{ projects[nextIndex].title }}</span>
 					<span class="icon"
 						><svg
 							width="20"
@@ -91,14 +91,38 @@ export default Vue.extend({
 			popupImage: false,
 			selectedImageIndex: 0,
 			selectedImageGroup: [],
-			project: {},
+			project: Object,
+			nextIndex: 0,
 		};
 	},
-	beforeMount() {
+	props: {
+		projects: {
+			type: Array,
+		},
+		index: {
+			type: Number,
+		},
+	},
+	created() {
 		this.project = this.getSelectedProject;
+		this.setNextIndex();
 	},
 	methods: {
-		showImage(index: any, images: any) {
+		setNextIndex() {
+			if (
+				this.projects.length - 1 >
+				this.projects.indexOf(this.project)
+			) {
+				this.nextIndex = this.projects.indexOf(this.project) + 1;
+			} else {
+				this.nextIndex = 0;
+			}
+		},
+		nextProject() {
+			this.project = this.projects[this.nextIndex];
+			this.setNextIndex();
+		},
+		showImage(index: number, images: any) {
 			this.selectedImageIndex = index;
 			this.selectedImageGroup = images;
 			this.popupImage = !this.popupImage;

@@ -17,7 +17,11 @@
 					:disabled="project.resource.disabled"
 				/>
 				<div class="gap"></div>
-				<LinkButton :link="project.demo" label="Launch Project" />
+				<LinkButton
+					:link="project.demo.link"
+					:label="'Go to ' + project.demo.type"
+					:disabled="project.demo.disabled"
+				/>
 			</div>
 		</div>
 		<ul class="right">

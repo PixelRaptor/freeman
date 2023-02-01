@@ -13,7 +13,7 @@
 		<div class="line"></div>
 		<Nuxt />
 		<PageFooter />
-		<ProjectPopup class="" v-if="$store.state.showProject" />
+		<!-- <ProjectPopup class="" v-if="$store.state.showProject" /> -->
 	</div>
 </template>
 
