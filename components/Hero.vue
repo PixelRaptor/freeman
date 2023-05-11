@@ -3,13 +3,16 @@
 	<div class="hero">
 		<div class="text">
 			<h1>
-				<span class="outline-text">Hello!</span> I am <br />
+				<!-- <span class="outline-text">Hello!</span> I am <br /> -->
 				Freeman Sibanda
 			</h1>
 			<p>
-				Are you looking for someone to design or develop an enjoyable
-				expirience for your next website, mobile or web app? Then am the
-				guy you are looking for.
+				A Designer and Frontend Developer with a passion for building
+				beautiful and user-friendly software. I have over 7 years of
+				experience in the industry, and I have worked on a variety of
+				projects, from small startups to large corporations. I am
+				skilled in a variety of technologies including, Kotlin, Swift,
+				JavaScript, React, and Vue.
 			</p>
 			<div class="get-intouch">
 				<a href="mailto:me@uxdev.co.za">Get in touch</a>

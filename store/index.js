@@ -235,961 +235,961 @@ export const state = () => ({
 				},
 			},
 		},
-		{
-			id: "4",
-			title: "Fuddy",
-			theme: "#F19B3E",
-			tags: ["react", "nodejs", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [
-				{ name: "Bakani Pilime", id: "bmpz@github.com" },
-				{
-					name: "Allen Kawanzaruwa",
-					id: "https://gitlab.com/allen.kawanzaruwa",
-				},
-			],
-			thumbnail: "https://uxdev.mo.cloudinary.net/fuddy.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "5",
-			title: "Chillax",
-			theme: "#B71717",
-			tags: ["nextjs", "react", "figma", "javascript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/chillax.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "6",
-			title: "TrusBank",
-			theme: "#01AAAD",
-			tags: ["nuxtjs", "vue", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/trusbank.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "7",
-			title: "Odior",
-			theme: "#20D762",
-			tags: ["nuxtjs", "vue", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/odior.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "8",
-			title: "Cinema3",
-			theme: "#888888",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/cinema3.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "9",
-			title: "Health plus",
-			theme: "#DEDEDE",
-			tags: ["nuxtjs", "vue", "figma", "javascript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/health-plus.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "10",
-			title: "Liquid",
-			theme: "#0077C8",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/liquid.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "11",
-			title: "Munch",
-			theme: "#F35A5A",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/munch.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "12",
-			title: "Ate",
-			theme: "#FF886C",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/ate.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "13",
-			title: "Doitol",
-			theme: "#0085FF",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/doitol.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "14",
-			title: "Rova",
-			theme: "#DEDEDE",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/rova.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "15",
-			title: "Sendit",
-			theme: "#604685",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/sendit.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
-		{
-			id: "16",
-			title: "Meteo",
-			theme: "#EAD51E",
-			tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
-			resource: {
-				type: "Figma",
-				link: "www.resource.com",
-				disabled: true,
-			},
-			demo: {
-				type: "Web App",
-				link: "www.demo.com",
-				disabled: false,
-			},
-			roles: ["developer", "designer"],
-			collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
-			thumbnail: "https://uxdev.mo.cloudinary.net/meteo.png",
-			content: {
-				overview: {
-					section: "overview",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-				},
-				solution: {
-					section: "solution",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
-						},
-						{
-							id: 2,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
-						},
-						{
-							id: 3,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
-						},
-						{
-							id: 4,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
-						},
-						{
-							id: 5,
-							title: "",
-							url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
-						},
-					],
-				},
-				results: {
-					section: "results",
-					passage: [
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-					],
-					images: [
-						{
-							id: 1,
-							title: "Cover",
-							url: "https://uxdev.mo.cloudinary.net/fuddy.png",
-						},
-					],
-				},
-			},
-		},
+		// {
+		// 	id: "4",
+		// 	title: "Fuddy",
+		// 	theme: "#F19B3E",
+		// 	tags: ["react", "nodejs", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [
+		// 		{ name: "Bakani Pilime", id: "bmpz@github.com" },
+		// 		{
+		// 			name: "Allen Kawanzaruwa",
+		// 			id: "https://gitlab.com/allen.kawanzaruwa",
+		// 		},
+		// 	],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "5",
+		// 	title: "Chillax",
+		// 	theme: "#B71717",
+		// 	tags: ["nextjs", "react", "figma", "javascript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/chillax.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "6",
+		// 	title: "TrusBank",
+		// 	theme: "#01AAAD",
+		// 	tags: ["nuxtjs", "vue", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/trusbank.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "7",
+		// 	title: "Odior",
+		// 	theme: "#20D762",
+		// 	tags: ["nuxtjs", "vue", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/odior.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "8",
+		// 	title: "Cinema3",
+		// 	theme: "#888888",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/cinema3.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "9",
+		// 	title: "Health plus",
+		// 	theme: "#DEDEDE",
+		// 	tags: ["nuxtjs", "vue", "figma", "javascript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/health-plus.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "10",
+		// 	title: "Liquid",
+		// 	theme: "#0077C8",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/liquid.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "11",
+		// 	title: "Munch",
+		// 	theme: "#F35A5A",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/munch.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "12",
+		// 	title: "Ate",
+		// 	theme: "#FF886C",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/ate.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "13",
+		// 	title: "Doitol",
+		// 	theme: "#0085FF",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/doitol.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "14",
+		// 	title: "Rova",
+		// 	theme: "#DEDEDE",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/rova.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "15",
+		// 	title: "Sendit",
+		// 	theme: "#604685",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/sendit.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	id: "16",
+		// 	title: "Meteo",
+		// 	theme: "#EAD51E",
+		// 	tags: ["nextjs", "react", "figma", "typescript", "vscode", "scss"],
+		// 	resource: {
+		// 		type: "Figma",
+		// 		link: "www.resource.com",
+		// 		disabled: true,
+		// 	},
+		// 	demo: {
+		// 		type: "Web App",
+		// 		link: "www.demo.com",
+		// 		disabled: false,
+		// 	},
+		// 	roles: ["developer", "designer"],
+		// 	collaborators: [{ name: "Bakani Pilime", id: "bmpz@github.com" }],
+		// 	thumbnail: "https://uxdev.mo.cloudinary.net/meteo.png",
+		// 	content: {
+		// 		overview: {
+		// 			section: "overview",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 		},
+		// 		solution: {
+		// 			section: "solution",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-1_tkhX2TRRG.jpg",
+		// 				},
+		// 				{
+		// 					id: 2,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2_bWFQZe9gI.jpg",
+		// 				},
+		// 				{
+		// 					id: 3,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-blog-frame-2-desktop_TM6F5KFTj.jpg",
+		// 				},
+		// 				{
+		// 					id: 4,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-health-articles-frame-1_hsq9qR9sp.jpg",
+		// 				},
+		// 				{
+		// 					id: 5,
+		// 					title: "",
+		// 					url: "https://uxdev.mo.cloudinary.net/afya-pap-health-articles-desktop-4_g2Tg9a8AL.png",
+		// 				},
+		// 			],
+		// 		},
+		// 		results: {
+		// 			section: "results",
+		// 			passage: [
+		// 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		// 			],
+		// 			images: [
+		// 				{
+		// 					id: 1,
+		// 					title: "Cover",
+		// 					url: "https://uxdev.mo.cloudinary.net/fuddy.png",
+		// 				},
+		// 			],
+		// 		},
+		// 	},
+		// },
 	],
 	showProject: false,
 	selectedProject: {},

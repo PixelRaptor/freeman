@@ -1,6 +1,5 @@
 <template>
 	<div class="photo-carousel">
-		<!-- @click="showPopup()" -->
 		<div class="graphic">
 			<div
 				v-bind:style="{
@@ -20,12 +19,12 @@
 		<div class="thumbnails">
 			<div
 				@click="setImage(img.url)"
-				v-for="img in images"
+				v-for="(img, index) in images"
 				v-bind:class="{
 					thumbnail: true,
 					selected: img.url == selected,
 				}"
-				:key="img.id"
+				:key="index"
 			>
 				<img
 					id="graphic"
@@ -42,27 +41,17 @@
 				></div>
 			</div>
 		</div>
-
-		<!-- <li v-for="(img, index) in images" :key="img.id">
-			<img
-				:src="img.url"
-				:alt="img.title"
-				srcset=""
-				@click="showImage(index, i.images)"
-			/>
-		</li> -->
 	</div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import ColorThief from "../../node_modules/colorthief/dist/color-thief";
 
 export default Vue.extend({
 	name: "PhotoCarousel",
 	data() {
 		return {
-			selected: {},
+			selected: "",
 			color: "ff0066",
 		};
 	},
@@ -71,33 +60,6 @@ export default Vue.extend({
 			this.selected = this.images[0].url;
 		} catch (e) {}
 	},
-	// mounted() {
-	// 	const colorThief = new ColorThief();
-	// 	const img = document.getElementById("graphic");
-
-	// 	const rgbToHex = (r: any) =>
-	// 		"#" +
-	// 		r
-	// 			.map((x: any) => {
-	// 				const hex = x.toString(16);
-	// 				return hex.length === 1 ? "0" + hex : hex;
-	// 			})
-	// 			.join("");
-	// 	if (img.complete) {
-	// 		colorThief.getColor(img);
-	// 		console.log(rgbToHex(102, 51, 153));
-	// 	} else {
-	// 		document
-	// 			.getElementById("graphic")
-	// 			.addEventListener("load", function () {
-	// 				let arr = colorThief.getColor(img);
-	// 				console.log(rgbToHex(arr));
-	// 				document.getElementById(
-	// 					"graphic_background"
-	// 				).style.backgroundColor = rgbToHex(arr);
-	// 			});
-	// 	}
-	// },
 	methods: {
 		setImage(url: string) {
 			this.selected = url;
@@ -105,8 +67,7 @@ export default Vue.extend({
 	},
 	props: {
 		images: {
-			type: Array,
-			default: [{ id: null, url: "", title: "" }],
+			type: Array<{id: null;url: "";title: ""}>
 		},
 		theme: {
 			type: String,
